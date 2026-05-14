@@ -43,10 +43,19 @@ def score_buyer(buyer, deal):
     reasons = []
 
     deal_zip = str(deal.get("zip", "")).strip()
-    deal_price = float(deal.get("price", 0) or 0)
+    try:
+        deal_price = float(deal.get("price") or 0)
+    except (TypeError, ValueError):
+        deal_price = 0
     deal_type = deal.get("property_type", "").lower()
-    deal_beds = int(deal.get("bedrooms", 0) or 0)
-    deal_yr_built = int(deal.get("yr_built", 0) or 0)
+    try:
+        deal_beds = int(deal.get("bedrooms") or 0)
+    except (TypeError, ValueError):
+        deal_beds = 0
+    try:
+        deal_yr_built = int(deal.get("yr_built") or 0)
+    except (TypeError, ValueError):
+        deal_yr_built = 0
     today = date.today()
 
     # --- ZIP code match (30 pts) ---
@@ -182,17 +191,28 @@ def ai_match_and_draft(candidates, deal):
       - Ranked list with match score + reasoning
       - Personalized outreach email per top 5
     """
+    def fmt_money(val):
+        try:
+            v = float(val)
+            return f"${v:,.0f}" if v else "N/A"
+        except (TypeError, ValueError):
+            return "N/A"
+
+    def fmt_val(val):
+        v = str(val).strip() if val is not None else ""
+        return v if v else "N/A"
+
     deal_desc = f"""
-Address: {deal.get('address', 'N/A')}
-Zip: {deal.get('zip', 'N/A')}
-Price (assignment): ${float(deal.get('price', 0)):,.0f}
-Property type: {deal.get('property_type', 'N/A')}
-Bedrooms: {deal.get('bedrooms', 'N/A')}
-Year built: {deal.get('yr_built', 'N/A')}
-Condition: {deal.get('condition', 'N/A')}
-ARV estimate: {('$' + f"{float(deal['arv']):,.0f}") if deal.get('arv') else 'N/A'}
-Sqft: {deal.get('sqft', 'N/A')}
-Notes: {deal.get('notes', 'None')}
+Address: {fmt_val(deal.get('address'))}
+Zip: {fmt_val(deal.get('zip'))}
+Price (assignment): {fmt_money(deal.get('price'))}
+Property type: {fmt_val(deal.get('property_type'))}
+Bedrooms: {fmt_val(deal.get('bedrooms'))}
+Year built: {fmt_val(deal.get('yr_built'))}
+Condition: {fmt_val(deal.get('condition'))}
+ARV estimate: {fmt_money(deal.get('arv'))}
+Sqft: {fmt_val(deal.get('sqft'))}
+Notes: {fmt_val(deal.get('notes')) or 'None'}
 Wholesaler: Tory Mayek (Milwaukee wholesaler, year 2, direct)
 """.strip()
 
