@@ -76,6 +76,10 @@
 
   .reasoning { font-size: 13px; color: #9ca3af; line-height: 1.6; padding: 12px 0; border-top: 1px solid #2a2d3a; }
 
+  .addr-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid #2a2d3a; flex-wrap: wrap; }
+  .addr-label { font-size: 11px; color: #6b7280; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+  .addr-val { font-size: 13px; color: #e0e0e0; flex: 1; }
+
   .email-section { margin-top: 14px; background: #0f1117; border-radius: 8px; padding: 14px; }
   .email-section h4 { font-size: 12px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; }
   .copy-btn { background: #2a2d3a; border: none; color: #9ca3af; padding: 3px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; transition: all .15s; }
@@ -314,6 +318,18 @@ function renderResults(data, deal) {
       return tagHtml(r, 'tag-type');
     }).join('');
 
+    const addr = buyer.owner_addr || '';
+    const zip  = buyer.owner_zip  || '';
+    const addrLine = addr ? `<div class="buyer-addr">📍 ${addr}${zip ? ', ' + zip : ''}</div>` : '';
+
+    const skipTraceUrl = `https://app.xleads.io`;
+    const addrSection = addr ? `
+      <div class="addr-row">
+        <span class="addr-label">Mailing address:</span>
+        <span class="addr-val">${addr}${zip ? ', ' + zip : ''}</span>
+        <a class="copy-btn" href="${skipTraceUrl}" target="_blank">Skip trace in xLeads</a>
+      </div>` : '';
+
     const emailSection = email ? `
       <div class="email-section">
         <h4>Outreach Draft <button class="copy-btn" onclick="copyEmail('${i}')">Copy</button></h4>
@@ -336,6 +352,7 @@ function renderResults(data, deal) {
         </div>
         <div class="card-body" id="card-${i}">
           <div class="reasoning">${buyer.reasoning}</div>
+          ${addrSection}
           ${emailSection}
         </div>
       </div>`;

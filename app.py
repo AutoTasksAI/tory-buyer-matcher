@@ -276,10 +276,14 @@ Only include outreach_emails for the top 5 buyers. Include all buyers in ranked_
 
     result = json.loads(raw)
 
-    # Merge pre-filter reasons into final result for display
+    # Merge pre-filter reasons + mailing address into final result for display
     pre_reasons_map = {name: reasons for _, name, _, reasons in candidates}
+    addr_map = {name: {"owner_addr": b.get("owner_addr", ""), "owner_zip": b.get("owner_zip", "")}
+                for _, name, b, _ in candidates}
     for buyer in result.get("ranked_buyers", []):
         buyer["pre_reasons"] = pre_reasons_map.get(buyer["name"], [])
+        buyer["owner_addr"] = addr_map.get(buyer["name"], {}).get("owner_addr", "")
+        buyer["owner_zip"] = addr_map.get(buyer["name"], {}).get("owner_zip", "")
 
     return result
 
