@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tory's Buyer Matcher</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0f1117; color: #e0e0e0; min-height: 100vh; }
+
+  .header { background: #1a1d27; border-bottom: 1px solid #2a2d3a; padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+  .header h1 { font-size: 18px; font-weight: 600; color: #fff; }
+  .badge { background: #22c55e22; color: #22c55e; border: 1px solid #22c55e44; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 500; }
+
+  .layout { display: grid; grid-template-columns: 380px 1fr; min-height: calc(100vh - 57px); }
+
+  .sidebar { background: #1a1d27; border-right: 1px solid #2a2d3a; padding: 24px; overflow-y: auto; }
+  .sidebar h2 { font-size: 13px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px; }
+
+  .form-group { margin-bottom: 14px; }
+  label { display: block; font-size: 12px; color: #9ca3af; margin-bottom: 5px; font-weight: 500; }
+  input, select, textarea { width: 100%; background: #0f1117; border: 1px solid #2a2d3a; color: #e0e0e0; padding: 9px 12px; border-radius: 8px; font-size: 14px; transition: border-color .15s; }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: #3b82f6; }
+  select option { background: #1a1d27; }
+  textarea { resize: vertical; min-height: 72px; }
+
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+  .btn { width: 100%; padding: 12px; background: #3b82f6; color: #fff; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; margin-top: 8px; transition: background .15s; }
+  .btn:hover { background: #2563eb; }
+  .btn:disabled { background: #374151; color: #6b7280; cursor: not-allowed; }
+
+  .stats { margin-top: 24px; padding-top: 20px; border-top: 1px solid #2a2d3a; }
+  .stat-row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px; }
+  .stat-val { color: #22c55e; font-weight: 600; }
+
+  .main { padding: 24px; overflow-y: auto; }
+
+  .empty-state { text-align: center; padding: 80px 40px; color: #6b7280; }
+  .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+  .empty-state h3 { font-size: 18px; color: #9ca3af; margin-bottom: 8px; }
+  .empty-state p { font-size: 14px; line-height: 1.6; max-width: 400px; margin: 0 auto; }
+
+  .loading { text-align: center; padding: 60px; color: #6b7280; }
+  .spinner { width: 36px; height: 36px; border: 3px solid #2a2d3a; border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .results-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .results-header h2 { font-size: 16px; font-weight: 600; }
+  .results-header span { font-size: 13px; color: #6b7280; }
+
+  .buyer-card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 12px; margin-bottom: 16px; overflow: hidden; transition: border-color .15s; }
+  .buyer-card:hover { border-color: #3b82f6; }
+  .buyer-card.top-match { border-color: #22c55e44; }
+
+  .card-header { padding: 16px 20px; display: flex; align-items: flex-start; gap: 14px; cursor: pointer; }
+  .score-badge { min-width: 50px; height: 50px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; line-height: 1; flex-shrink: 0; }
+  .score-high { background: #22c55e22; color: #22c55e; border: 1px solid #22c55e44; }
+  .score-mid { background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b44; }
+  .score-low { background: #6b728022; color: #9ca3af; border: 1px solid #6b728044; }
+  .score-label { font-size: 9px; font-weight: 500; margin-top: 2px; letter-spacing: .03em; }
+
+  .card-info { flex: 1; min-width: 0; }
+  .buyer-name { font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 4px; }
+  .buyer-meta { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; }
+  .tag-zip { background: #3b82f622; color: #60a5fa; }
+  .tag-type { background: #8b5cf622; color: #a78bfa; }
+  .tag-price { background: #22c55e22; color: #4ade80; }
+  .tag-active { background: #f59e0b22; color: #fbbf24; }
+  .tag-cold { background: #6b728022; color: #9ca3af; }
+
+  .card-body { padding: 0 20px 16px; display: none; }
+  .card-body.open { display: block; }
+
+  .reasoning { font-size: 13px; color: #9ca3af; line-height: 1.6; padding: 12px 0; border-top: 1px solid #2a2d3a; }
+
+  .email-section { margin-top: 14px; background: #0f1117; border-radius: 8px; padding: 14px; }
+  .email-section h4 { font-size: 12px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; }
+  .copy-btn { background: #2a2d3a; border: none; color: #9ca3af; padding: 3px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; transition: all .15s; }
+  .copy-btn:hover { background: #3b82f6; color: #fff; }
+  .email-subject { font-size: 13px; font-weight: 600; color: #e0e0e0; margin-bottom: 8px; }
+  .email-body { font-size: 13px; color: #9ca3af; line-height: 1.7; white-space: pre-wrap; }
+
+  .error-box { background: #7f1d1d22; border: 1px solid #7f1d1d44; border-radius: 8px; padding: 16px; color: #fca5a5; font-size: 14px; margin-bottom: 16px; }
+
+  .setup-box { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+  .setup-box h3 { font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #fff; }
+  .setup-box ol { padding-left: 18px; font-size: 13px; color: #9ca3af; line-height: 2; }
+  .setup-box a { color: #60a5fa; text-decoration: none; }
+  .setup-box a:hover { text-decoration: underline; }
+  .setup-box code { background: #0f1117; padding: 1px 6px; border-radius: 4px; font-family: monospace; font-size: 12px; color: #22c55e; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Buyer Matcher</h1>
+  <span class="badge" id="buyer-count-badge">{{ buyer_count }} buyers loaded</span>
+</div>
+
+<div class="layout">
+  <div class="sidebar">
+    <h2>Deal Details</h2>
+
+    <div class="form-group">
+      <label>Property Address</label>
+      <input type="text" id="address" placeholder="e.g. 1234 N 14th St">
+    </div>
+
+    <div class="row2">
+      <div class="form-group">
+        <label>Zip Code</label>
+        <input type="text" id="zip" placeholder="53206" maxlength="5">
+      </div>
+      <div class="form-group">
+        <label>Your Price (Assignment $)</label>
+        <input type="number" id="price" placeholder="69000">
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="form-group">
+        <label>Property Type</label>
+        <select id="property_type">
+          <option value="">-- select --</option>
+          <option value="Single Family">Single Family</option>
+          <option value="Duplex">Duplex</option>
+          <option value="Triplex">Triplex</option>
+          <option value="Fourplex">Fourplex</option>
+          <option value="5+ Units">5+ Units</option>
+          <option value="Commercial">Commercial</option>
+          <option value="Mixed Use">Mixed Use</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Bedrooms</label>
+        <input type="number" id="bedrooms" placeholder="3" min="0" max="20">
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="form-group">
+        <label>Year Built</label>
+        <input type="number" id="yr_built" placeholder="1952" min="1800" max="2025">
+      </div>
+      <div class="form-group">
+        <label>Sqft (approx)</label>
+        <input type="number" id="sqft" placeholder="1200">
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="form-group">
+        <label>Condition</label>
+        <select id="condition">
+          <option value="">-- select --</option>
+          <option value="As-Is / Heavy Rehab">As-Is / Heavy Rehab</option>
+          <option value="Light Rehab">Light Rehab</option>
+          <option value="Turnkey / Move-In Ready">Turnkey / Move-In Ready</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>ARV Estimate</label>
+        <input type="number" id="arv" placeholder="120000">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Deal Notes (seller situation, highlights, etc.)</label>
+      <textarea id="notes" placeholder="e.g. Seller moving to assisted living, motivated, can close in 2 weeks. New roof 2021. Needs kitchen + bath update."></textarea>
+    </div>
+
+    <button class="btn" id="match-btn" onclick="runMatch()">Find Matching Buyers</button>
+
+    <div class="stats" id="stats-section" style="display:none">
+      <h2>Database</h2>
+      <div class="stat-row"><span>Total buyers</span><span class="stat-val" id="stat-total">-</span></div>
+      <div class="stat-row"><span>5+ deals</span><span class="stat-val" id="stat-5plus">-</span></div>
+      <div class="stat-row"><span>10+ deals</span><span class="stat-val" id="stat-10plus">-</span></div>
+      <div class="stat-row"><span>Avg deals/buyer</span><span class="stat-val" id="stat-avg">-</span></div>
+    </div>
+  </div>
+
+  <div class="main" id="main">
+    {% if buyer_count == 0 %}
+    <div class="setup-box">
+      <h3>Setup Required — Download Milwaukee Data</h3>
+      <ol>
+        <li>Go to <a href="https://data.milwaukee.gov/dataset/property-sales-data" target="_blank">data.milwaukee.gov/dataset/property-sales-data</a></li>
+        <li>Download CSV for each year (2022, 2023, 2024) — save as <code>data/sales_2022.csv</code> etc.</li>
+        <li>Go to <a href="https://data.milwaukee.gov/dataset/mprop" target="_blank">data.milwaukee.gov/dataset/mprop</a></li>
+        <li>Click CSV download — save as <code>data/mprop.csv</code></li>
+        <li>Run <code>python build_profiles.py</code> in this folder</li>
+        <li>Refresh this page</li>
+      </ol>
+    </div>
+    {% endif %}
+
+    <div class="empty-state" id="empty-state">
+      <div class="icon">🎯</div>
+      <h3>Enter a deal to find buyers</h3>
+      <p>Fill in the deal details and hit Find Matching Buyers. The AI will rank every buyer in the database and draft personalized outreach for the top matches.</p>
+    </div>
+
+    <div class="loading" id="loading" style="display:none">
+      <div class="spinner"></div>
+      <p>Matching buyers and drafting outreach...</p>
+    </div>
+
+    <div id="results" style="display:none"></div>
+  </div>
+</div>
+
+<script>
+async function loadStats() {
+  try {
+    const res = await fetch('/profiles/stats');
+    const data = await res.json();
+    if (data.total_buyers) {
+      document.getElementById('stats-section').style.display = 'block';
+      document.getElementById('stat-total').textContent = data.total_buyers.toLocaleString();
+      document.getElementById('stat-5plus').textContent = data.buyers_5plus.toLocaleString();
+      document.getElementById('stat-10plus').textContent = data.buyers_10plus.toLocaleString();
+      document.getElementById('stat-avg').textContent = data.avg_deals;
+    }
+  } catch(e) {}
+}
+loadStats();
+
+function val(id) { return document.getElementById(id).value.trim(); }
+
+async function runMatch() {
+  const deal = {
+    address:       val('address'),
+    zip:           val('zip'),
+    price:         val('price'),
+    property_type: val('property_type'),
+    bedrooms:      val('bedrooms'),
+    yr_built:      val('yr_built'),
+    sqft:          val('sqft'),
+    condition:     val('condition'),
+    arv:           val('arv'),
+    notes:         val('notes'),
+  };
+
+  if (!deal.zip && !deal.price) {
+    alert('At minimum, enter a zip code and price.');
+    return;
+  }
+
+  document.getElementById('empty-state').style.display = 'none';
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('match-btn').disabled = true;
+
+  try {
+    const res = await fetch('/match', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(deal),
+    });
+    const data = await res.json();
+    renderResults(data, deal);
+  } catch(e) {
+    renderError('Network error: ' + e.message);
+  } finally {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('match-btn').disabled = false;
+  }
+}
+
+function scoreColor(score) {
+  if (score >= 70) return 'score-high';
+  if (score >= 45) return 'score-mid';
+  return 'score-low';
+}
+
+function tagHtml(text, cls) {
+  return `<span class="tag ${cls}">${text}</span>`;
+}
+
+function renderResults(data, deal) {
+  const el = document.getElementById('results');
+
+  if (data.error) {
+    el.innerHTML = `<div class="error-box">${data.error}</div>`;
+    el.style.display = 'block';
+    return;
+  }
+
+  const buyers = data.ranked_buyers || [];
+  const emails = {};
+  (data.outreach_emails || []).forEach(e => emails[e.name] = e);
+
+  let html = `
+    <div class="results-header">
+      <h2>Matched Buyers</h2>
+      <span>${buyers.length} buyers ranked</span>
+    </div>`;
+
+  buyers.forEach((buyer, i) => {
+    const isTop = i < 3;
+    const colorClass = scoreColor(buyer.score);
+    const email = emails[buyer.name];
+
+    const tags = (buyer.pre_reasons || []).slice(0, 3).map(r => {
+      if (r.includes('Buys in')) return tagHtml(r, 'tag-zip');
+      if (r.includes('Price') && r.includes('fits')) return tagHtml(r, 'tag-price');
+      if (r.includes('Buys ') && !r.includes('Price')) return tagHtml(r, 'tag-type');
+      if (r.includes('actively buying')) return tagHtml(r, 'tag-active');
+      if (r.includes('cold') || r.includes('Inactive')) return tagHtml(r, 'tag-cold');
+      return tagHtml(r, 'tag-type');
+    }).join('');
+
+    const emailSection = email ? `
+      <div class="email-section">
+        <h4>Outreach Draft <button class="copy-btn" onclick="copyEmail('${i}')">Copy</button></h4>
+        <div class="email-subject" id="subj-${i}">Subject: ${email.subject}</div>
+        <div class="email-body" id="body-${i}">${email.body}</div>
+      </div>` : '';
+
+    html += `
+      <div class="buyer-card ${isTop ? 'top-match' : ''}">
+        <div class="card-header" onclick="toggleCard(${i})">
+          <div class="score-badge ${colorClass}">
+            ${buyer.score}
+            <span class="score-label">/ 100</span>
+          </div>
+          <div class="card-info">
+            <div class="buyer-name">#${i+1} ${buyer.name}</div>
+            <div class="buyer-meta">${email ? 'Draft ready' : 'No draft'}</div>
+            <div class="tags">${tags}</div>
+          </div>
+        </div>
+        <div class="card-body" id="card-${i}">
+          <div class="reasoning">${buyer.reasoning}</div>
+          ${emailSection}
+        </div>
+      </div>`;
+  });
+
+  el.innerHTML = html;
+  el.style.display = 'block';
+
+  // Auto-open top 3
+  [0, 1, 2].forEach(i => toggleCard(i, true));
+}
+
+function toggleCard(i, forceOpen) {
+  const el = document.getElementById('card-' + i);
+  if (!el) return;
+  if (forceOpen) {
+    el.classList.add('open');
+  } else {
+    el.classList.toggle('open');
+  }
+}
+
+function copyEmail(i) {
+  const subj = document.getElementById('subj-' + i)?.textContent || '';
+  const body = document.getElementById('body-' + i)?.textContent || '';
+  const text = subj + '\n\n' + body;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.target;
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy', 1500);
+  });
+}
+
+function renderError(msg) {
+  const el = document.getElementById('results');
+  el.innerHTML = `<div class="error-box">${msg}</div>`;
+  el.style.display = 'block';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,6545 @@
+{
+  "MKE Property Solutions LLC": {
+    "name": "MKE Property Solutions LLC",
+    "deal_count": 9,
+    "first_purchase": "2025-01-28",
+    "last_purchase": "2026-01-26",
+    "days_since_last_purchase": 108,
+    "avg_days_between_purchases": 45,
+    "price_min": 44000,
+    "price_max": 112000,
+    "price_avg": 76777,
+    "top_zips": [
+      "53205",
+      "53210",
+      "53209"
+    ],
+    "zip_counts": {
+      "53205": 5,
+      "53210": 3,
+      "53209": 1
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 9
+    },
+    "avg_bedrooms": 2.9,
+    "max_bedrooms": 4,
+    "avg_sqft": 2750,
+    "yr_built_avg": 1947,
+    "yr_built_min": 1928,
+    "avg_price_to_assessed_pct": 74.1,
+    "purchases": [
+      {
+        "address": "5119 W Lisbon Ave",
+        "zip": "53205",
+        "price": 84000,
+        "sale_date": "2025-01-28",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1949,
+        "sqft": 3367,
+        "assessed": 108428,
+        "taxkey": "1192619"
+      },
+      {
+        "address": "9085 N 35th St",
+        "zip": "53210",
+        "price": 86000,
+        "sale_date": "2025-04-29",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1928,
+        "sqft": 3287,
+        "assessed": 110165,
+        "taxkey": "2839607"
+      },
+      {
+        "address": "7572 W Oklahoma Ave",
+        "zip": "53205",
+        "price": 64000,
+        "sale_date": "2025-08-24",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1971,
+        "sqft": 2492,
+        "assessed": 96697,
+        "taxkey": "4539704"
+      },
+      {
+        "address": "3340 W Oklahoma Ave",
+        "zip": "53209",
+        "price": 85000,
+        "sale_date": "2025-08-31",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1961,
+        "sqft": 3079,
+        "assessed": 131099,
+        "taxkey": "5137722"
+      },
+      {
+        "address": "7227 W Oklahoma Ave",
+        "zip": "53210",
+        "price": 45000,
+        "sale_date": "2025-10-01",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1975,
+        "sqft": 1613,
+        "assessed": 68744,
+        "taxkey": "7120868"
+      },
+      {
+        "address": "5010 N Teutonia Ave",
+        "zip": "53205",
+        "price": 44000,
+        "sale_date": "2025-10-05",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1930,
+        "sqft": 3387,
+        "assessed": 61800,
+        "taxkey": "7366205"
+      },
+      {
+        "address": "5803 S 43rd St",
+        "zip": "53205",
+        "price": 93000,
+        "sale_date": "2025-11-07",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1944,
+        "sqft": 1522,
+        "assessed": 127234,
+        "taxkey": "4226067"
+      },
+      {
+        "address": "2674 N 35th St",
+        "zip": "53210",
+        "price": 78000,
+        "sale_date": "2025-12-12",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1933,
+        "sqft": 2578,
+        "assessed": 96636,
+        "taxkey": "2622631"
+      },
+      {
+        "address": "7873 S 6th St",
+        "zip": "53205",
+        "price": 112000,
+        "sale_date": "2026-01-26",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1932,
+        "sqft": 3432,
+        "assessed": 124686,
+        "taxkey": "5667265"
+      }
+    ]
+  },
+  "Cream City Holdings LLC": {
+    "name": "Cream City Holdings LLC",
+    "deal_count": 8,
+    "first_purchase": "2025-07-03",
+    "last_purchase": "2026-03-14",
+    "days_since_last_purchase": 61,
+    "avg_days_between_purchases": 36,
+    "price_min": 66000,
+    "price_max": 96000,
+    "price_avg": 81125,
+    "top_zips": [
+      "53205",
+      "53210",
+      "53212",
+      "53220"
+    ],
+    "zip_counts": {
+      "53205": 4,
+      "53210": 2,
+      "53212": 1,
+      "53220": 1
+    },
+    "top_property_types": [
+      "Triplex"
+    ],
+    "type_counts": {
+      "Triplex": 8
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 4,
+    "avg_sqft": 2421,
+    "yr_built_avg": 1952,
+    "yr_built_min": 1929,
+    "avg_price_to_assessed_pct": 72.8,
+    "purchases": [
+      {
+        "address": "2612 N 20th St",
+        "zip": "53205",
+        "price": 66000,
+        "sale_date": "2025-07-03",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1966,
+        "sqft": 1421,
+        "assessed": 88011,
+        "taxkey": "6692553"
+      },
+      {
+        "address": "5563 W Greenfield Ave",
+        "zip": "53210",
+        "price": 74000,
+        "sale_date": "2025-08-24",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1947,
+        "sqft": 1951,
+        "assessed": 97998,
+        "taxkey": "2264748"
+      },
+      {
+        "address": "4981 S 27th St",
+        "zip": "53205",
+        "price": 86000,
+        "sale_date": "2025-09-27",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1956,
+        "sqft": 3136,
+        "assessed": 134827,
+        "taxkey": "7829332"
+      },
+      {
+        "address": "1514 W Burnham St",
+        "zip": "53205",
+        "price": 85000,
+        "sale_date": "2025-12-09",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1934,
+        "sqft": 1476,
+        "assessed": 120321,
+        "taxkey": "9626108"
+      },
+      {
+        "address": "2982 S 6th St",
+        "zip": "53212",
+        "price": 81000,
+        "sale_date": "2025-12-11",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1953,
+        "sqft": 3049,
+        "assessed": 104223,
+        "taxkey": "2074176"
+      },
+      {
+        "address": "3705 W Oklahoma Ave",
+        "zip": "53205",
+        "price": 89000,
+        "sale_date": "2025-12-22",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1962,
+        "sqft": 3146,
+        "assessed": 103496,
+        "taxkey": "8099076"
+      },
+      {
+        "address": "3646 W Lisbon Ave",
+        "zip": "53210",
+        "price": 72000,
+        "sale_date": "2026-01-29",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1929,
+        "sqft": 2731,
+        "assessed": 101122,
+        "taxkey": "1009594"
+      },
+      {
+        "address": "4923 N 20th St",
+        "zip": "53220",
+        "price": 96000,
+        "sale_date": "2026-03-14",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1971,
+        "sqft": 2459,
+        "assessed": 152895,
+        "taxkey": "2321324"
+      }
+    ]
+  },
+  "Brew City Investments LLC": {
+    "name": "Brew City Investments LLC",
+    "deal_count": 14,
+    "first_purchase": "2024-06-06",
+    "last_purchase": "2026-02-14",
+    "days_since_last_purchase": 89,
+    "avg_days_between_purchases": 48,
+    "price_min": 40000,
+    "price_max": 79000,
+    "price_avg": 56428,
+    "top_zips": [
+      "53220",
+      "53205",
+      "53203"
+    ],
+    "zip_counts": {
+      "53220": 9,
+      "53205": 4,
+      "53203": 1
+    },
+    "top_property_types": [
+      "Fourplex",
+      "Single Family"
+    ],
+    "type_counts": {
+      "Fourplex": 11,
+      "Single Family": 3
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 4,
+    "avg_sqft": 2142,
+    "yr_built_avg": 1943,
+    "yr_built_min": 1924,
+    "avg_price_to_assessed_pct": 77.1,
+    "purchases": [
+      {
+        "address": "5349 N 20th St",
+        "zip": "53220",
+        "price": 47000,
+        "sale_date": "2024-06-06",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1936,
+        "sqft": 1931,
+        "assessed": 72310,
+        "taxkey": "8290770"
+      },
+      {
+        "address": "7267 N 20th St",
+        "zip": "53205",
+        "price": 55000,
+        "sale_date": "2024-10-13",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1970,
+        "sqft": 1642,
+        "assessed": 67837,
+        "taxkey": "4731818"
+      },
+      {
+        "address": "3900 N Sherman Blvd",
+        "zip": "53205",
+        "price": 79000,
+        "sale_date": "2024-10-21",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1935,
+        "sqft": 1865,
+        "assessed": 116504,
+        "taxkey": "4009172"
+      },
+      {
+        "address": "6862 W Fond du Lac Ave",
+        "zip": "53220",
+        "price": 48000,
+        "sale_date": "2024-11-22",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1943,
+        "sqft": 1363,
+        "assessed": 53803,
+        "taxkey": "5186414"
+      },
+      {
+        "address": "6378 W Oklahoma Ave",
+        "zip": "53220",
+        "price": 54000,
+        "sale_date": "2024-12-15",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1932,
+        "sqft": 2832,
+        "assessed": 60038,
+        "taxkey": "5682940"
+      },
+      {
+        "address": "2512 S 43rd St",
+        "zip": "53205",
+        "price": 56000,
+        "sale_date": "2025-07-07",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1974,
+        "sqft": 904,
+        "assessed": 86949,
+        "taxkey": "5641923"
+      },
+      {
+        "address": "2200 W Lisbon Ave",
+        "zip": "53220",
+        "price": 40000,
+        "sale_date": "2025-08-31",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1956,
+        "sqft": 1609,
+        "assessed": 53165,
+        "taxkey": "9487336"
+      },
+      {
+        "address": "1158 W Vliet St",
+        "zip": "53220",
+        "price": 50000,
+        "sale_date": "2025-09-01",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1955,
+        "sqft": 2951,
+        "assessed": 73530,
+        "taxkey": "3500715"
+      },
+      {
+        "address": "5956 W North Ave",
+        "zip": "53220",
+        "price": 63000,
+        "sale_date": "2025-09-27",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1948,
+        "sqft": 3425,
+        "assessed": 78277,
+        "taxkey": "1131249"
+      },
+      {
+        "address": "3546 W Oklahoma Ave",
+        "zip": "53205",
+        "price": 56000,
+        "sale_date": "2025-09-27",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1926,
+        "sqft": 3466,
+        "assessed": 64832,
+        "taxkey": "4533779"
+      },
+      {
+        "address": "4346 W Burnham St",
+        "zip": "53220",
+        "price": 77000,
+        "sale_date": "2025-12-23",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1940,
+        "sqft": 1334,
+        "assessed": 106461,
+        "taxkey": "5456272"
+      },
+      {
+        "address": "1821 N 76th St",
+        "zip": "53220",
+        "price": 74000,
+        "sale_date": "2026-01-24",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1940,
+        "sqft": 1434,
+        "assessed": 83655,
+        "taxkey": "9436429"
+      },
+      {
+        "address": "4853 W Capitol Dr",
+        "zip": "53203",
+        "price": 51000,
+        "sale_date": "2026-01-24",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1924,
+        "sqft": 2182,
+        "assessed": 57847,
+        "taxkey": "5130808"
+      },
+      {
+        "address": "5673 N Sherman Blvd",
+        "zip": "53220",
+        "price": 40000,
+        "sale_date": "2026-02-14",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1936,
+        "sqft": 3063,
+        "assessed": 63706,
+        "taxkey": "9164991"
+      }
+    ]
+  },
+  "Lakefront Real Estate LLC": {
+    "name": "Lakefront Real Estate LLC",
+    "deal_count": 12,
+    "first_purchase": "2025-01-19",
+    "last_purchase": "2026-04-15",
+    "days_since_last_purchase": 29,
+    "avg_days_between_purchases": 41,
+    "price_min": 57000,
+    "price_max": 84000,
+    "price_avg": 75416,
+    "top_zips": [
+      "53212",
+      "53215",
+      "53219"
+    ],
+    "zip_counts": {
+      "53212": 7,
+      "53215": 4,
+      "53219": 1
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 12
+    },
+    "avg_bedrooms": 2.3,
+    "max_bedrooms": 3,
+    "avg_sqft": 1651,
+    "yr_built_avg": 1951,
+    "yr_built_min": 1920,
+    "avg_price_to_assessed_pct": 73.6,
+    "purchases": [
+      {
+        "address": "3704 W Greenfield Ave",
+        "zip": "53212",
+        "price": 79000,
+        "sale_date": "2025-01-19",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1963,
+        "sqft": 1628,
+        "assessed": 100177,
+        "taxkey": "9961107"
+      },
+      {
+        "address": "9818 W Lisbon Ave",
+        "zip": "53219",
+        "price": 74000,
+        "sale_date": "2025-01-20",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1974,
+        "sqft": 1658,
+        "assessed": 109278,
+        "taxkey": "4700025"
+      },
+      {
+        "address": "3267 W Center St",
+        "zip": "53212",
+        "price": 76000,
+        "sale_date": "2025-07-30",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1954,
+        "sqft": 965,
+        "assessed": 95748,
+        "taxkey": "7426265"
+      },
+      {
+        "address": "7965 S 6th St",
+        "zip": "53215",
+        "price": 64000,
+        "sale_date": "2025-09-05",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1920,
+        "sqft": 1018,
+        "assessed": 91393,
+        "taxkey": "9689889"
+      },
+      {
+        "address": "5543 N Port Washington Rd",
+        "zip": "53212",
+        "price": 83000,
+        "sale_date": "2025-09-09",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1935,
+        "sqft": 2105,
+        "assessed": 102056,
+        "taxkey": "5013879"
+      },
+      {
+        "address": "4388 N Sherman Blvd",
+        "zip": "53215",
+        "price": 76000,
+        "sale_date": "2025-10-21",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1946,
+        "sqft": 927,
+        "assessed": 104219,
+        "taxkey": "1327691"
+      },
+      {
+        "address": "6198 W Greenfield Ave",
+        "zip": "53212",
+        "price": 84000,
+        "sale_date": "2025-11-14",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1955,
+        "sqft": 2019,
+        "assessed": 120438,
+        "taxkey": "9468772"
+      },
+      {
+        "address": "6491 N 35th St",
+        "zip": "53215",
+        "price": 73000,
+        "sale_date": "2025-12-28",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1960,
+        "sqft": 2068,
+        "assessed": 99113,
+        "taxkey": "4940441"
+      },
+      {
+        "address": "2193 W Greenfield Ave",
+        "zip": "53215",
+        "price": 57000,
+        "sale_date": "2026-01-03",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 2051,
+        "assessed": 69678,
+        "taxkey": "4262081"
+      },
+      {
+        "address": "6279 W Greenfield Ave",
+        "zip": "53212",
+        "price": 82000,
+        "sale_date": "2026-01-28",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 2140,
+        "assessed": 122416,
+        "taxkey": "8418210"
+      },
+      {
+        "address": "3851 W North Ave",
+        "zip": "53212",
+        "price": 81000,
+        "sale_date": "2026-02-25",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1944,
+        "sqft": 2187,
+        "assessed": 116029,
+        "taxkey": "6049101"
+      },
+      {
+        "address": "5920 N Port Washington Rd",
+        "zip": "53212",
+        "price": 76000,
+        "sale_date": "2026-04-15",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1962,
+        "sqft": 1055,
+        "assessed": 107279,
+        "taxkey": "7851696"
+      }
+    ]
+  },
+  "Midwest Cash Buyers LLC": {
+    "name": "Midwest Cash Buyers LLC",
+    "deal_count": 8,
+    "first_purchase": "2025-05-20",
+    "last_purchase": "2026-03-07",
+    "days_since_last_purchase": 68,
+    "avg_days_between_purchases": 42,
+    "price_min": 51000,
+    "price_max": 88000,
+    "price_avg": 68875,
+    "top_zips": [
+      "53214",
+      "53221"
+    ],
+    "zip_counts": {
+      "53214": 5,
+      "53221": 3
+    },
+    "top_property_types": [
+      "Single Family",
+      "Duplex"
+    ],
+    "type_counts": {
+      "Single Family": 5,
+      "Duplex": 3
+    },
+    "avg_bedrooms": 3.5,
+    "max_bedrooms": 4,
+    "avg_sqft": 2069,
+    "yr_built_avg": 1956,
+    "yr_built_min": 1933,
+    "avg_price_to_assessed_pct": 72.4,
+    "purchases": [
+      {
+        "address": "3979 S 27th St",
+        "zip": "53221",
+        "price": 74000,
+        "sale_date": "2025-05-20",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1951,
+        "sqft": 1465,
+        "assessed": 93846,
+        "taxkey": "6952975"
+      },
+      {
+        "address": "6280 S 6th St",
+        "zip": "53221",
+        "price": 79000,
+        "sale_date": "2025-06-05",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1966,
+        "sqft": 2299,
+        "assessed": 104105,
+        "taxkey": "5679639"
+      },
+      {
+        "address": "1672 N 51st Blvd",
+        "zip": "53214",
+        "price": 88000,
+        "sale_date": "2025-11-19",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1970,
+        "sqft": 1959,
+        "assessed": 132243,
+        "taxkey": "7217147"
+      },
+      {
+        "address": "7149 W Capitol Dr",
+        "zip": "53221",
+        "price": 51000,
+        "sale_date": "2025-12-03",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 2187,
+        "assessed": 79786,
+        "taxkey": "4327421"
+      },
+      {
+        "address": "3506 N Sherman Blvd",
+        "zip": "53214",
+        "price": 81000,
+        "sale_date": "2025-12-30",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1943,
+        "sqft": 3083,
+        "assessed": 93374,
+        "taxkey": "9753457"
+      },
+      {
+        "address": "5198 N 51st Blvd",
+        "zip": "53214",
+        "price": 57000,
+        "sale_date": "2026-02-09",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1933,
+        "sqft": 1752,
+        "assessed": 78773,
+        "taxkey": "2921542"
+      },
+      {
+        "address": "1508 S 6th St",
+        "zip": "53214",
+        "price": 54000,
+        "sale_date": "2026-02-16",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1961,
+        "sqft": 882,
+        "assessed": 80493,
+        "taxkey": "1341919"
+      },
+      {
+        "address": "5133 N 35th St",
+        "zip": "53214",
+        "price": 67000,
+        "sale_date": "2026-03-07",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1973,
+        "sqft": 2926,
+        "assessed": 98892,
+        "taxkey": "1325197"
+      }
+    ]
+  },
+  "Urban Renewal Properties LLC": {
+    "name": "Urban Renewal Properties LLC",
+    "deal_count": 15,
+    "first_purchase": "2024-03-29",
+    "last_purchase": "2026-01-11",
+    "days_since_last_purchase": 123,
+    "avg_days_between_purchases": 47,
+    "price_min": 63000,
+    "price_max": 120000,
+    "price_avg": 83066,
+    "top_zips": [
+      "53212",
+      "53210",
+      "53222"
+    ],
+    "zip_counts": {
+      "53212": 8,
+      "53210": 6,
+      "53222": 1
+    },
+    "top_property_types": [
+      "Fourplex",
+      "Single Family"
+    ],
+    "type_counts": {
+      "Fourplex": 10,
+      "Single Family": 5
+    },
+    "avg_bedrooms": 2.9,
+    "max_bedrooms": 4,
+    "avg_sqft": 1907,
+    "yr_built_avg": 1948,
+    "yr_built_min": 1920,
+    "avg_price_to_assessed_pct": 75.8,
+    "purchases": [
+      {
+        "address": "7622 N Port Washington Rd",
+        "zip": "53212",
+        "price": 65000,
+        "sale_date": "2024-03-29",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1940,
+        "sqft": 1674,
+        "assessed": 81721,
+        "taxkey": "8750676"
+      },
+      {
+        "address": "6280 W North Ave",
+        "zip": "53210",
+        "price": 88000,
+        "sale_date": "2024-09-12",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1922,
+        "sqft": 2969,
+        "assessed": 100339,
+        "taxkey": "1433940"
+      },
+      {
+        "address": "7965 W Vliet St",
+        "zip": "53212",
+        "price": 74000,
+        "sale_date": "2025-01-10",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1970,
+        "sqft": 2010,
+        "assessed": 115584,
+        "taxkey": "4771676"
+      },
+      {
+        "address": "8245 W Oklahoma Ave",
+        "zip": "53212",
+        "price": 108000,
+        "sale_date": "2025-01-28",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 1862,
+        "assessed": 159638,
+        "taxkey": "8312936"
+      },
+      {
+        "address": "3634 W Burnham St",
+        "zip": "53210",
+        "price": 86000,
+        "sale_date": "2025-05-17",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1962,
+        "sqft": 1628,
+        "assessed": 108932,
+        "taxkey": "9312590"
+      },
+      {
+        "address": "8195 W Vliet St",
+        "zip": "53210",
+        "price": 70000,
+        "sale_date": "2025-06-18",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1958,
+        "sqft": 2382,
+        "assessed": 104741,
+        "taxkey": "6101803"
+      },
+      {
+        "address": "4404 S 43rd St",
+        "zip": "53212",
+        "price": 63000,
+        "sale_date": "2025-06-21",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1967,
+        "sqft": 1606,
+        "assessed": 88503,
+        "taxkey": "5440025"
+      },
+      {
+        "address": "8699 N Hopkins St",
+        "zip": "53210",
+        "price": 64000,
+        "sale_date": "2025-06-30",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1946,
+        "sqft": 1722,
+        "assessed": 75409,
+        "taxkey": "4883526"
+      },
+      {
+        "address": "6582 N Teutonia Ave",
+        "zip": "53212",
+        "price": 96000,
+        "sale_date": "2025-08-26",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 1702,
+        "assessed": 119248,
+        "taxkey": "5235884"
+      },
+      {
+        "address": "3485 W Center St",
+        "zip": "53222",
+        "price": 85000,
+        "sale_date": "2025-08-29",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1956,
+        "sqft": 1419,
+        "assessed": 114399,
+        "taxkey": "6097514"
+      },
+      {
+        "address": "9561 W Capitol Dr",
+        "zip": "53212",
+        "price": 98000,
+        "sale_date": "2025-09-20",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1959,
+        "sqft": 1262,
+        "assessed": 137010,
+        "taxkey": "8427625"
+      },
+      {
+        "address": "3073 W Oklahoma Ave",
+        "zip": "53212",
+        "price": 83000,
+        "sale_date": "2025-12-06",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1920,
+        "sqft": 1893,
+        "assessed": 98746,
+        "taxkey": "1914794"
+      },
+      {
+        "address": "4545 S 27th St",
+        "zip": "53210",
+        "price": 120000,
+        "sale_date": "2025-12-10",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1931,
+        "sqft": 1984,
+        "assessed": 177731,
+        "taxkey": "9801946"
+      },
+      {
+        "address": "6023 W Oklahoma Ave",
+        "zip": "53212",
+        "price": 81000,
+        "sale_date": "2025-12-18",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1949,
+        "sqft": 2309,
+        "assessed": 103348,
+        "taxkey": "3024269"
+      },
+      {
+        "address": "6016 N 76th St",
+        "zip": "53210",
+        "price": 65000,
+        "sale_date": "2026-01-11",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1945,
+        "sqft": 2196,
+        "assessed": 81062,
+        "taxkey": "8939993"
+      }
+    ]
+  },
+  "WI Property Group LLC": {
+    "name": "WI Property Group LLC",
+    "deal_count": 11,
+    "first_purchase": "2025-01-30",
+    "last_purchase": "2026-02-25",
+    "days_since_last_purchase": 78,
+    "avg_days_between_purchases": 39,
+    "price_min": 50000,
+    "price_max": 77000,
+    "price_avg": 63727,
+    "top_zips": [
+      "53203",
+      "53219",
+      "53208"
+    ],
+    "zip_counts": {
+      "53203": 7,
+      "53219": 2,
+      "53208": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 11
+    },
+    "avg_bedrooms": 3.3,
+    "max_bedrooms": 4,
+    "avg_sqft": 1609,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1926,
+    "avg_price_to_assessed_pct": 74.3,
+    "purchases": [
+      {
+        "address": "4804 W Greenfield Ave",
+        "zip": "53203",
+        "price": 57000,
+        "sale_date": "2025-01-30",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1957,
+        "sqft": 1093,
+        "assessed": 76883,
+        "taxkey": "5261032"
+      },
+      {
+        "address": "5000 N Port Washington Rd",
+        "zip": "53219",
+        "price": 59000,
+        "sale_date": "2025-04-03",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1947,
+        "sqft": 1098,
+        "assessed": 75474,
+        "taxkey": "4020853"
+      },
+      {
+        "address": "2646 W Greenfield Ave",
+        "zip": "53208",
+        "price": 52000,
+        "sale_date": "2025-07-05",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1926,
+        "sqft": 2097,
+        "assessed": 68483,
+        "taxkey": "6024207"
+      },
+      {
+        "address": "7274 S 6th St",
+        "zip": "53203",
+        "price": 77000,
+        "sale_date": "2025-08-20",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1964,
+        "sqft": 1289,
+        "assessed": 91963,
+        "taxkey": "1732280"
+      },
+      {
+        "address": "1606 W Center St",
+        "zip": "53203",
+        "price": 75000,
+        "sale_date": "2025-08-21",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1929,
+        "sqft": 1814,
+        "assessed": 113278,
+        "taxkey": "6569946"
+      },
+      {
+        "address": "6188 S 43rd St",
+        "zip": "53203",
+        "price": 77000,
+        "sale_date": "2025-09-15",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1954,
+        "sqft": 1578,
+        "assessed": 110662,
+        "taxkey": "1602286"
+      },
+      {
+        "address": "9022 W Center St",
+        "zip": "53208",
+        "price": 58000,
+        "sale_date": "2025-10-22",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1938,
+        "sqft": 1411,
+        "assessed": 87595,
+        "taxkey": "9125900"
+      },
+      {
+        "address": "3529 N 35th St",
+        "zip": "53219",
+        "price": 50000,
+        "sale_date": "2025-10-31",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1946,
+        "sqft": 2140,
+        "assessed": 73061,
+        "taxkey": "5446344"
+      },
+      {
+        "address": "9165 N Hopkins St",
+        "zip": "53203",
+        "price": 64000,
+        "sale_date": "2026-01-01",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1961,
+        "sqft": 1115,
+        "assessed": 100705,
+        "taxkey": "5587308"
+      },
+      {
+        "address": "9327 W Center St",
+        "zip": "53203",
+        "price": 67000,
+        "sale_date": "2026-01-01",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1932,
+        "sqft": 2027,
+        "assessed": 78545,
+        "taxkey": "5634662"
+      },
+      {
+        "address": "4920 N Teutonia Ave",
+        "zip": "53203",
+        "price": 65000,
+        "sale_date": "2026-02-25",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1960,
+        "sqft": 2046,
+        "assessed": 75446,
+        "taxkey": "1229419"
+      }
+    ]
+  },
+  "Great Lakes Acquisitions LLC": {
+    "name": "Great Lakes Acquisitions LLC",
+    "deal_count": 17,
+    "first_purchase": "2024-01-21",
+    "last_purchase": "2026-02-15",
+    "days_since_last_purchase": 88,
+    "avg_days_between_purchases": 47,
+    "price_min": 52000,
+    "price_max": 100000,
+    "price_avg": 71117,
+    "top_zips": [
+      "53210",
+      "53216",
+      "53202"
+    ],
+    "zip_counts": {
+      "53210": 11,
+      "53216": 4,
+      "53202": 2
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 17
+    },
+    "avg_bedrooms": 2.9,
+    "max_bedrooms": 4,
+    "avg_sqft": 2237,
+    "yr_built_avg": 1954,
+    "yr_built_min": 1926,
+    "avg_price_to_assessed_pct": 72.5,
+    "purchases": [
+      {
+        "address": "8433 N Port Washington Rd",
+        "zip": "53210",
+        "price": 74000,
+        "sale_date": "2024-01-21",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1953,
+        "sqft": 2407,
+        "assessed": 118201,
+        "taxkey": "2663938"
+      },
+      {
+        "address": "5941 W Greenfield Ave",
+        "zip": "53210",
+        "price": 89000,
+        "sale_date": "2024-06-27",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1970,
+        "sqft": 3335,
+        "assessed": 99829,
+        "taxkey": "1522621"
+      },
+      {
+        "address": "2323 W Burnham St",
+        "zip": "53210",
+        "price": 56000,
+        "sale_date": "2024-07-02",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1948,
+        "sqft": 1501,
+        "assessed": 75327,
+        "taxkey": "3488628"
+      },
+      {
+        "address": "9017 W North Ave",
+        "zip": "53210",
+        "price": 97000,
+        "sale_date": "2025-02-07",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1946,
+        "sqft": 1605,
+        "assessed": 141940,
+        "taxkey": "5693260"
+      },
+      {
+        "address": "2041 S 27th St",
+        "zip": "53210",
+        "price": 58000,
+        "sale_date": "2025-03-31",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1953,
+        "sqft": 1665,
+        "assessed": 85309,
+        "taxkey": "7074006"
+      },
+      {
+        "address": "3159 N 12th St",
+        "zip": "53216",
+        "price": 61000,
+        "sale_date": "2025-06-07",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1975,
+        "sqft": 1305,
+        "assessed": 70452,
+        "taxkey": "4991829"
+      },
+      {
+        "address": "2902 W Vliet St",
+        "zip": "53216",
+        "price": 52000,
+        "sale_date": "2025-06-11",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1939,
+        "sqft": 3217,
+        "assessed": 81802,
+        "taxkey": "3276065"
+      },
+      {
+        "address": "9920 S 43rd St",
+        "zip": "53210",
+        "price": 65000,
+        "sale_date": "2025-07-01",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1926,
+        "sqft": 2704,
+        "assessed": 99302,
+        "taxkey": "2015861"
+      },
+      {
+        "address": "3024 W Greenfield Ave",
+        "zip": "53216",
+        "price": 100000,
+        "sale_date": "2025-07-02",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1936,
+        "sqft": 3397,
+        "assessed": 129728,
+        "taxkey": "5398338"
+      },
+      {
+        "address": "1828 W Burnham St",
+        "zip": "53210",
+        "price": 55000,
+        "sale_date": "2025-07-24",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1961,
+        "sqft": 1287,
+        "assessed": 78726,
+        "taxkey": "3112652"
+      },
+      {
+        "address": "6383 W Center St",
+        "zip": "53202",
+        "price": 63000,
+        "sale_date": "2025-09-04",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1972,
+        "sqft": 2154,
+        "assessed": 87771,
+        "taxkey": "5651899"
+      },
+      {
+        "address": "4626 S 43rd St",
+        "zip": "53210",
+        "price": 80000,
+        "sale_date": "2025-11-18",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 2543,
+        "assessed": 89000,
+        "taxkey": "8789116"
+      },
+      {
+        "address": "3877 W Fond du Lac Ave",
+        "zip": "53202",
+        "price": 55000,
+        "sale_date": "2025-11-22",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1940,
+        "sqft": 2901,
+        "assessed": 85514,
+        "taxkey": "7138070"
+      },
+      {
+        "address": "8673 N 35th St",
+        "zip": "53210",
+        "price": 68000,
+        "sale_date": "2025-12-13",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1941,
+        "sqft": 1671,
+        "assessed": 100183,
+        "taxkey": "4785186"
+      },
+      {
+        "address": "2591 S 43rd St",
+        "zip": "53210",
+        "price": 99000,
+        "sale_date": "2026-01-24",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1973,
+        "sqft": 1760,
+        "assessed": 141529,
+        "taxkey": "6183033"
+      },
+      {
+        "address": "2747 S 6th St",
+        "zip": "53216",
+        "price": 62000,
+        "sale_date": "2026-02-12",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1974,
+        "sqft": 3179,
+        "assessed": 99180,
+        "taxkey": "7022335"
+      },
+      {
+        "address": "9138 N Hopkins St",
+        "zip": "53210",
+        "price": 75000,
+        "sale_date": "2026-02-15",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1956,
+        "sqft": 1400,
+        "assessed": 92793,
+        "taxkey": "6910964"
+      }
+    ]
+  },
+  "North Shore Holdings LLC": {
+    "name": "North Shore Holdings LLC",
+    "deal_count": 14,
+    "first_purchase": "2024-09-22",
+    "last_purchase": "2026-04-24",
+    "days_since_last_purchase": 20,
+    "avg_days_between_purchases": 45,
+    "price_min": 54000,
+    "price_max": 109000,
+    "price_avg": 84428,
+    "top_zips": [
+      "53205",
+      "53208",
+      "53215",
+      "53220"
+    ],
+    "zip_counts": {
+      "53205": 9,
+      "53208": 3,
+      "53215": 1,
+      "53220": 1
+    },
+    "top_property_types": [
+      "Single Family",
+      "Fourplex"
+    ],
+    "type_counts": {
+      "Single Family": 8,
+      "Fourplex": 6
+    },
+    "avg_bedrooms": 3.3,
+    "max_bedrooms": 4,
+    "avg_sqft": 1781,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1925,
+    "avg_price_to_assessed_pct": 75.6,
+    "purchases": [
+      {
+        "address": "3419 S 6th St",
+        "zip": "53205",
+        "price": 107000,
+        "sale_date": "2024-09-22",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1942,
+        "sqft": 2121,
+        "assessed": 159228,
+        "taxkey": "3456926"
+      },
+      {
+        "address": "6321 N Teutonia Ave",
+        "zip": "53215",
+        "price": 76000,
+        "sale_date": "2025-01-24",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1945,
+        "sqft": 1285,
+        "assessed": 94601,
+        "taxkey": "7070880"
+      },
+      {
+        "address": "8147 N 12th St",
+        "zip": "53205",
+        "price": 101000,
+        "sale_date": "2025-01-30",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1945,
+        "sqft": 886,
+        "assessed": 128985,
+        "taxkey": "2306317"
+      },
+      {
+        "address": "9095 W Greenfield Ave",
+        "zip": "53205",
+        "price": 54000,
+        "sale_date": "2025-04-23",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1969,
+        "sqft": 2086,
+        "assessed": 64182,
+        "taxkey": "6422534"
+      },
+      {
+        "address": "6562 S 6th St",
+        "zip": "53205",
+        "price": 75000,
+        "sale_date": "2025-05-11",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1945,
+        "sqft": 1435,
+        "assessed": 102148,
+        "taxkey": "3820798"
+      },
+      {
+        "address": "1126 S 27th St",
+        "zip": "53205",
+        "price": 98000,
+        "sale_date": "2025-07-22",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1940,
+        "sqft": 1691,
+        "assessed": 120320,
+        "taxkey": "3947669"
+      },
+      {
+        "address": "2391 N 20th St",
+        "zip": "53205",
+        "price": 71000,
+        "sale_date": "2025-10-05",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1939,
+        "sqft": 1464,
+        "assessed": 83688,
+        "taxkey": "3640899"
+      },
+      {
+        "address": "2140 W Center St",
+        "zip": "53208",
+        "price": 61000,
+        "sale_date": "2025-10-25",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1956,
+        "sqft": 2841,
+        "assessed": 93630,
+        "taxkey": "1514340"
+      },
+      {
+        "address": "1744 S 6th St",
+        "zip": "53205",
+        "price": 93000,
+        "sale_date": "2025-10-30",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1953,
+        "sqft": 2463,
+        "assessed": 129880,
+        "taxkey": "1919088"
+      },
+      {
+        "address": "5381 N 12th St",
+        "zip": "53220",
+        "price": 89000,
+        "sale_date": "2025-11-05",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1955,
+        "sqft": 1307,
+        "assessed": 127936,
+        "taxkey": "5584716"
+      },
+      {
+        "address": "7785 W Oklahoma Ave",
+        "zip": "53208",
+        "price": 92000,
+        "sale_date": "2025-12-15",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 1705,
+        "assessed": 120704,
+        "taxkey": "9595744"
+      },
+      {
+        "address": "7022 W Vliet St",
+        "zip": "53205",
+        "price": 64000,
+        "sale_date": "2026-01-21",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1942,
+        "sqft": 1939,
+        "assessed": 97512,
+        "taxkey": "5673599"
+      },
+      {
+        "address": "7929 N 20th St",
+        "zip": "53208",
+        "price": 92000,
+        "sale_date": "2026-02-18",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1942,
+        "sqft": 2162,
+        "assessed": 106822,
+        "taxkey": "6242022"
+      },
+      {
+        "address": "2527 N Sherman Blvd",
+        "zip": "53205",
+        "price": 109000,
+        "sale_date": "2026-04-24",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1925,
+        "sqft": 1549,
+        "assessed": 145747,
+        "taxkey": "7251976"
+      }
+    ]
+  },
+  "River West Properties LLC": {
+    "name": "River West Properties LLC",
+    "deal_count": 8,
+    "first_purchase": "2025-04-10",
+    "last_purchase": "2026-03-06",
+    "days_since_last_purchase": 69,
+    "avg_days_between_purchases": 47,
+    "price_min": 67000,
+    "price_max": 122000,
+    "price_avg": 92750,
+    "top_zips": [
+      "53212",
+      "53206",
+      "53216"
+    ],
+    "zip_counts": {
+      "53212": 5,
+      "53206": 2,
+      "53216": 1
+    },
+    "top_property_types": [
+      "Triplex",
+      "Single Family"
+    ],
+    "type_counts": {
+      "Triplex": 4,
+      "Single Family": 4
+    },
+    "avg_bedrooms": 3.2,
+    "max_bedrooms": 4,
+    "avg_sqft": 2305,
+    "yr_built_avg": 1951,
+    "yr_built_min": 1924,
+    "avg_price_to_assessed_pct": 77.9,
+    "purchases": [
+      {
+        "address": "7172 W Center St",
+        "zip": "53212",
+        "price": 112000,
+        "sale_date": "2025-04-10",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1941,
+        "sqft": 1736,
+        "assessed": 125313,
+        "taxkey": "4034091"
+      },
+      {
+        "address": "4145 S 6th St",
+        "zip": "53206",
+        "price": 72000,
+        "sale_date": "2025-08-01",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1969,
+        "sqft": 3191,
+        "assessed": 91502,
+        "taxkey": "3599548"
+      },
+      {
+        "address": "2531 S 43rd St",
+        "zip": "53212",
+        "price": 87000,
+        "sale_date": "2025-08-25",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1962,
+        "sqft": 3356,
+        "assessed": 131073,
+        "taxkey": "8103580"
+      },
+      {
+        "address": "3317 N 51st Blvd",
+        "zip": "53206",
+        "price": 122000,
+        "sale_date": "2025-10-25",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1941,
+        "sqft": 966,
+        "assessed": 187470,
+        "taxkey": "7575963"
+      },
+      {
+        "address": "6482 N 35th St",
+        "zip": "53212",
+        "price": 121000,
+        "sale_date": "2025-11-07",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1960,
+        "sqft": 2125,
+        "assessed": 136268,
+        "taxkey": "2585546"
+      },
+      {
+        "address": "3471 N 20th St",
+        "zip": "53212",
+        "price": 69000,
+        "sale_date": "2025-12-15",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1950,
+        "sqft": 3253,
+        "assessed": 86992,
+        "taxkey": "2736473"
+      },
+      {
+        "address": "8199 N Port Washington Rd",
+        "zip": "53216",
+        "price": 67000,
+        "sale_date": "2026-01-11",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 1696,
+        "assessed": 75011,
+        "taxkey": "3663319"
+      },
+      {
+        "address": "2479 W North Ave",
+        "zip": "53212",
+        "price": 92000,
+        "sale_date": "2026-03-06",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1924,
+        "sqft": 2120,
+        "assessed": 139458,
+        "taxkey": "9507186"
+      }
+    ]
+  },
+  "Sherman Park Investments LLC": {
+    "name": "Sherman Park Investments LLC",
+    "deal_count": 12,
+    "first_purchase": "2024-12-12",
+    "last_purchase": "2026-02-01",
+    "days_since_last_purchase": 102,
+    "avg_days_between_purchases": 38,
+    "price_min": 55000,
+    "price_max": 129000,
+    "price_avg": 93666,
+    "top_zips": [
+      "53203",
+      "53222",
+      "53207",
+      "53216"
+    ],
+    "zip_counts": {
+      "53203": 5,
+      "53222": 3,
+      "53207": 3,
+      "53216": 1
+    },
+    "top_property_types": [
+      "Triplex",
+      "Duplex"
+    ],
+    "type_counts": {
+      "Triplex": 8,
+      "Duplex": 4
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 4,
+    "avg_sqft": 2309,
+    "yr_built_avg": 1949,
+    "yr_built_min": 1923,
+    "avg_price_to_assessed_pct": 73.5,
+    "purchases": [
+      {
+        "address": "6170 N Hopkins St",
+        "zip": "53216",
+        "price": 75000,
+        "sale_date": "2024-12-12",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1932,
+        "sqft": 1371,
+        "assessed": 84142,
+        "taxkey": "7681090"
+      },
+      {
+        "address": "8612 S 27th St",
+        "zip": "53222",
+        "price": 95000,
+        "sale_date": "2025-04-03",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1972,
+        "sqft": 1917,
+        "assessed": 130435,
+        "taxkey": "4058117"
+      },
+      {
+        "address": "6438 W Oklahoma Ave",
+        "zip": "53203",
+        "price": 74000,
+        "sale_date": "2025-04-03",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1975,
+        "sqft": 1395,
+        "assessed": 91986,
+        "taxkey": "7174337"
+      },
+      {
+        "address": "1266 N 51st Blvd",
+        "zip": "53222",
+        "price": 55000,
+        "sale_date": "2025-04-27",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1943,
+        "sqft": 2238,
+        "assessed": 77980,
+        "taxkey": "6784825"
+      },
+      {
+        "address": "4068 N 35th St",
+        "zip": "53207",
+        "price": 128000,
+        "sale_date": "2025-06-22",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1956,
+        "sqft": 2906,
+        "assessed": 163380,
+        "taxkey": "7049927"
+      },
+      {
+        "address": "9782 N 12th St",
+        "zip": "53222",
+        "price": 129000,
+        "sale_date": "2025-08-05",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1927,
+        "sqft": 3247,
+        "assessed": 171383,
+        "taxkey": "9646569"
+      },
+      {
+        "address": "7934 W Vliet St",
+        "zip": "53203",
+        "price": 120000,
+        "sale_date": "2025-09-21",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1958,
+        "sqft": 3361,
+        "assessed": 188413,
+        "taxkey": "4986941"
+      },
+      {
+        "address": "7142 S 6th St",
+        "zip": "53203",
+        "price": 114000,
+        "sale_date": "2025-11-10",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1944,
+        "sqft": 1534,
+        "assessed": 146715,
+        "taxkey": "6346644"
+      },
+      {
+        "address": "8685 W Greenfield Ave",
+        "zip": "53203",
+        "price": 86000,
+        "sale_date": "2025-11-18",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1950,
+        "sqft": 1768,
+        "assessed": 134048,
+        "taxkey": "1088100"
+      },
+      {
+        "address": "8167 N 35th St",
+        "zip": "53203",
+        "price": 84000,
+        "sale_date": "2026-01-04",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1952,
+        "sqft": 1803,
+        "assessed": 111271,
+        "taxkey": "8568671"
+      },
+      {
+        "address": "8564 N Hopkins St",
+        "zip": "53207",
+        "price": 97000,
+        "sale_date": "2026-01-24",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1956,
+        "sqft": 3004,
+        "assessed": 139597,
+        "taxkey": "9437374"
+      },
+      {
+        "address": "7081 W Lisbon Ave",
+        "zip": "53207",
+        "price": 67000,
+        "sale_date": "2026-02-01",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1923,
+        "sqft": 3168,
+        "assessed": 102945,
+        "taxkey": "9655523"
+      }
+    ]
+  },
+  "Bay View Rentals LLC": {
+    "name": "Bay View Rentals LLC",
+    "deal_count": 20,
+    "first_purchase": "2024-03-11",
+    "last_purchase": "2026-01-31",
+    "days_since_last_purchase": 103,
+    "avg_days_between_purchases": 36,
+    "price_min": 52000,
+    "price_max": 95000,
+    "price_avg": 75450,
+    "top_zips": [
+      "53214",
+      "53223",
+      "53216"
+    ],
+    "zip_counts": {
+      "53214": 10,
+      "53223": 7,
+      "53216": 3
+    },
+    "top_property_types": [
+      "Fourplex",
+      "Single Family"
+    ],
+    "type_counts": {
+      "Fourplex": 16,
+      "Single Family": 4
+    },
+    "avg_bedrooms": 3.2,
+    "max_bedrooms": 4,
+    "avg_sqft": 2266,
+    "yr_built_avg": 1942,
+    "yr_built_min": 1921,
+    "avg_price_to_assessed_pct": 76.9,
+    "purchases": [
+      {
+        "address": "6939 W Lisbon Ave",
+        "zip": "53214",
+        "price": 73000,
+        "sale_date": "2024-03-11",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1923,
+        "sqft": 1997,
+        "assessed": 81951,
+        "taxkey": "2233658"
+      },
+      {
+        "address": "2739 W Burnham St",
+        "zip": "53216",
+        "price": 75000,
+        "sale_date": "2024-08-26",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1943,
+        "sqft": 3309,
+        "assessed": 87403,
+        "taxkey": "8826111"
+      },
+      {
+        "address": "8710 N Hopkins St",
+        "zip": "53223",
+        "price": 72000,
+        "sale_date": "2024-09-10",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1938,
+        "sqft": 3227,
+        "assessed": 80951,
+        "taxkey": "2803501"
+      },
+      {
+        "address": "5067 N Teutonia Ave",
+        "zip": "53214",
+        "price": 53000,
+        "sale_date": "2024-10-14",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1944,
+        "sqft": 2912,
+        "assessed": 65990,
+        "taxkey": "6493461"
+      },
+      {
+        "address": "8933 W Greenfield Ave",
+        "zip": "53214",
+        "price": 94000,
+        "sale_date": "2024-10-31",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1948,
+        "sqft": 2902,
+        "assessed": 106215,
+        "taxkey": "6707484"
+      },
+      {
+        "address": "3653 W Burnham St",
+        "zip": "53216",
+        "price": 57000,
+        "sale_date": "2024-11-24",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1939,
+        "sqft": 1137,
+        "assessed": 77465,
+        "taxkey": "4782763"
+      },
+      {
+        "address": "6055 S 27th St",
+        "zip": "53223",
+        "price": 81000,
+        "sale_date": "2024-11-28",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1949,
+        "sqft": 3242,
+        "assessed": 129436,
+        "taxkey": "2510773"
+      },
+      {
+        "address": "6067 W Capitol Dr",
+        "zip": "53214",
+        "price": 58000,
+        "sale_date": "2025-01-15",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1925,
+        "sqft": 1469,
+        "assessed": 81546,
+        "taxkey": "9819709"
+      },
+      {
+        "address": "9938 N Hopkins St",
+        "zip": "53223",
+        "price": 76000,
+        "sale_date": "2025-01-26",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1921,
+        "sqft": 3239,
+        "assessed": 107088,
+        "taxkey": "9102469"
+      },
+      {
+        "address": "1674 N 12th St",
+        "zip": "53214",
+        "price": 89000,
+        "sale_date": "2025-05-18",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 1491,
+        "assessed": 129968,
+        "taxkey": "1762722"
+      },
+      {
+        "address": "5961 W North Ave",
+        "zip": "53214",
+        "price": 90000,
+        "sale_date": "2025-06-23",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1937,
+        "sqft": 1712,
+        "assessed": 142035,
+        "taxkey": "2567468"
+      },
+      {
+        "address": "6692 N 35th St",
+        "zip": "53223",
+        "price": 78000,
+        "sale_date": "2025-07-21",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1971,
+        "sqft": 2509,
+        "assessed": 124693,
+        "taxkey": "5871470"
+      },
+      {
+        "address": "6644 W Center St",
+        "zip": "53214",
+        "price": 91000,
+        "sale_date": "2025-08-17",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1949,
+        "sqft": 3319,
+        "assessed": 103474,
+        "taxkey": "4052834"
+      },
+      {
+        "address": "4048 S 27th St",
+        "zip": "53214",
+        "price": 67000,
+        "sale_date": "2025-08-23",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1927,
+        "sqft": 1306,
+        "assessed": 82061,
+        "taxkey": "7492570"
+      },
+      {
+        "address": "4878 S 27th St",
+        "zip": "53223",
+        "price": 82000,
+        "sale_date": "2025-08-31",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1932,
+        "sqft": 1084,
+        "assessed": 99393,
+        "taxkey": "7054838"
+      },
+      {
+        "address": "9047 W Fond du Lac Ave",
+        "zip": "53223",
+        "price": 95000,
+        "sale_date": "2025-09-15",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1959,
+        "sqft": 1384,
+        "assessed": 125697,
+        "taxkey": "3277144"
+      },
+      {
+        "address": "7077 N 51st Blvd",
+        "zip": "53214",
+        "price": 52000,
+        "sale_date": "2025-10-13",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1963,
+        "sqft": 3042,
+        "assessed": 72932,
+        "taxkey": "2289923"
+      },
+      {
+        "address": "8179 N 20th St",
+        "zip": "53216",
+        "price": 93000,
+        "sale_date": "2025-12-10",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1921,
+        "sqft": 1784,
+        "assessed": 109739,
+        "taxkey": "2127988"
+      },
+      {
+        "address": "2311 W Burnham St",
+        "zip": "53223",
+        "price": 61000,
+        "sale_date": "2026-01-21",
+        "bedrooms": 4,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1940,
+        "sqft": 1620,
+        "assessed": 83736,
+        "taxkey": "5960015"
+      },
+      {
+        "address": "8126 W Oklahoma Ave",
+        "zip": "53214",
+        "price": 72000,
+        "sale_date": "2026-01-31",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1966,
+        "sqft": 2644,
+        "assessed": 95296,
+        "taxkey": "2258981"
+      }
+    ]
+  },
+  "Third Ward Holdings LLC": {
+    "name": "Third Ward Holdings LLC",
+    "deal_count": 10,
+    "first_purchase": "2025-04-25",
+    "last_purchase": "2026-04-22",
+    "days_since_last_purchase": 22,
+    "avg_days_between_purchases": 40,
+    "price_min": 59000,
+    "price_max": 82000,
+    "price_avg": 71400,
+    "top_zips": [
+      "53219",
+      "53216",
+      "53220"
+    ],
+    "zip_counts": {
+      "53219": 7,
+      "53216": 2,
+      "53220": 1
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 10
+    },
+    "avg_bedrooms": 3.4,
+    "max_bedrooms": 4,
+    "avg_sqft": 1531,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1921,
+    "avg_price_to_assessed_pct": 73.7,
+    "purchases": [
+      {
+        "address": "4310 W Lisbon Ave",
+        "zip": "53220",
+        "price": 75000,
+        "sale_date": "2025-04-25",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 1238,
+        "assessed": 92116,
+        "taxkey": "5557052"
+      },
+      {
+        "address": "6608 W Lisbon Ave",
+        "zip": "53219",
+        "price": 65000,
+        "sale_date": "2025-07-09",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1949,
+        "sqft": 1891,
+        "assessed": 102592,
+        "taxkey": "5435261"
+      },
+      {
+        "address": "3399 N Hopkins St",
+        "zip": "53219",
+        "price": 76000,
+        "sale_date": "2025-08-05",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1945,
+        "sqft": 1506,
+        "assessed": 104241,
+        "taxkey": "5825636"
+      },
+      {
+        "address": "4396 S 27th St",
+        "zip": "53216",
+        "price": 64000,
+        "sale_date": "2025-09-09",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1939,
+        "sqft": 1391,
+        "assessed": 77595,
+        "taxkey": "9049765"
+      },
+      {
+        "address": "4968 N 20th St",
+        "zip": "53219",
+        "price": 74000,
+        "sale_date": "2025-09-11",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1944,
+        "sqft": 1102,
+        "assessed": 110060,
+        "taxkey": "2843740"
+      },
+      {
+        "address": "8726 N 20th St",
+        "zip": "53219",
+        "price": 68000,
+        "sale_date": "2025-09-19",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1946,
+        "sqft": 1827,
+        "assessed": 98277,
+        "taxkey": "3316639"
+      },
+      {
+        "address": "8775 W Oklahoma Ave",
+        "zip": "53216",
+        "price": 82000,
+        "sale_date": "2025-12-17",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1921,
+        "sqft": 2022,
+        "assessed": 118409,
+        "taxkey": "1861596"
+      },
+      {
+        "address": "8780 N 12th St",
+        "zip": "53219",
+        "price": 72000,
+        "sale_date": "2026-01-22",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 1413,
+        "assessed": 96834,
+        "taxkey": "6557278"
+      },
+      {
+        "address": "6373 W North Ave",
+        "zip": "53219",
+        "price": 59000,
+        "sale_date": "2026-02-21",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1952,
+        "sqft": 1086,
+        "assessed": 82784,
+        "taxkey": "3726331"
+      },
+      {
+        "address": "7576 N Port Washington Rd",
+        "zip": "53219",
+        "price": 79000,
+        "sale_date": "2026-04-22",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 1842,
+        "assessed": 92598,
+        "taxkey": "1760064"
+      }
+    ]
+  },
+  "Rust Belt Realty LLC": {
+    "name": "Rust Belt Realty LLC",
+    "deal_count": 18,
+    "first_purchase": "2024-05-17",
+    "last_purchase": "2026-03-26",
+    "days_since_last_purchase": 49,
+    "avg_days_between_purchases": 40,
+    "price_min": 55000,
+    "price_max": 93000,
+    "price_avg": 76055,
+    "top_zips": [
+      "53205",
+      "53222"
+    ],
+    "zip_counts": {
+      "53205": 12,
+      "53222": 6
+    },
+    "top_property_types": [
+      "Duplex",
+      "Single Family"
+    ],
+    "type_counts": {
+      "Duplex": 9,
+      "Single Family": 9
+    },
+    "avg_bedrooms": 3.4,
+    "max_bedrooms": 4,
+    "avg_sqft": 1936,
+    "yr_built_avg": 1954,
+    "yr_built_min": 1925,
+    "avg_price_to_assessed_pct": 75.7,
+    "purchases": [
+      {
+        "address": "5888 W Greenfield Ave",
+        "zip": "53205",
+        "price": 69000,
+        "sale_date": "2024-05-17",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1968,
+        "sqft": 1293,
+        "assessed": 104701,
+        "taxkey": "8115687"
+      },
+      {
+        "address": "2314 W Lisbon Ave",
+        "zip": "53205",
+        "price": 83000,
+        "sale_date": "2024-10-16",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1944,
+        "sqft": 1569,
+        "assessed": 127389,
+        "taxkey": "6834610"
+      },
+      {
+        "address": "1527 N Sherman Blvd",
+        "zip": "53205",
+        "price": 64000,
+        "sale_date": "2024-12-07",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1966,
+        "sqft": 1031,
+        "assessed": 79220,
+        "taxkey": "1262492"
+      },
+      {
+        "address": "2011 W Lisbon Ave",
+        "zip": "53222",
+        "price": 78000,
+        "sale_date": "2025-01-01",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 1029,
+        "assessed": 88846,
+        "taxkey": "4391627"
+      },
+      {
+        "address": "5009 N 20th St",
+        "zip": "53205",
+        "price": 83000,
+        "sale_date": "2025-04-14",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 899,
+        "assessed": 116108,
+        "taxkey": "8364573"
+      },
+      {
+        "address": "7021 W North Ave",
+        "zip": "53205",
+        "price": 74000,
+        "sale_date": "2025-04-18",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1960,
+        "sqft": 2408,
+        "assessed": 106940,
+        "taxkey": "4676367"
+      },
+      {
+        "address": "6224 N 76th St",
+        "zip": "53205",
+        "price": 73000,
+        "sale_date": "2025-05-20",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1966,
+        "sqft": 1979,
+        "assessed": 88846,
+        "taxkey": "6379867"
+      },
+      {
+        "address": "9008 N 35th St",
+        "zip": "53205",
+        "price": 83000,
+        "sale_date": "2025-07-02",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1933,
+        "sqft": 1994,
+        "assessed": 96123,
+        "taxkey": "8473959"
+      },
+      {
+        "address": "6049 N 12th St",
+        "zip": "53222",
+        "price": 84000,
+        "sale_date": "2025-07-06",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 3093,
+        "assessed": 116084,
+        "taxkey": "5269083"
+      },
+      {
+        "address": "8714 W Lisbon Ave",
+        "zip": "53222",
+        "price": 93000,
+        "sale_date": "2025-08-19",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1964,
+        "sqft": 3449,
+        "assessed": 119673,
+        "taxkey": "4664338"
+      },
+      {
+        "address": "2130 S 27th St",
+        "zip": "53222",
+        "price": 77000,
+        "sale_date": "2025-08-24",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1954,
+        "sqft": 923,
+        "assessed": 111664,
+        "taxkey": "5816582"
+      },
+      {
+        "address": "4871 N 20th St",
+        "zip": "53205",
+        "price": 91000,
+        "sale_date": "2025-08-30",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1961,
+        "sqft": 2672,
+        "assessed": 100620,
+        "taxkey": "8808032"
+      },
+      {
+        "address": "5064 N 12th St",
+        "zip": "53205",
+        "price": 66000,
+        "sale_date": "2025-09-06",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 1462,
+        "assessed": 104995,
+        "taxkey": "7435310"
+      },
+      {
+        "address": "4164 N Teutonia Ave",
+        "zip": "53205",
+        "price": 55000,
+        "sale_date": "2025-10-17",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1970,
+        "sqft": 2408,
+        "assessed": 80756,
+        "taxkey": "8175669"
+      },
+      {
+        "address": "8668 W Oklahoma Ave",
+        "zip": "53222",
+        "price": 89000,
+        "sale_date": "2025-12-20",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1928,
+        "sqft": 3265,
+        "assessed": 121232,
+        "taxkey": "2889899"
+      },
+      {
+        "address": "1613 N 12th St",
+        "zip": "53222",
+        "price": 86000,
+        "sale_date": "2026-01-28",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1967,
+        "sqft": 1392,
+        "assessed": 102611,
+        "taxkey": "2800206"
+      },
+      {
+        "address": "9767 N 20th St",
+        "zip": "53205",
+        "price": 58000,
+        "sale_date": "2026-02-23",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1925,
+        "sqft": 2151,
+        "assessed": 90130,
+        "taxkey": "8010946"
+      },
+      {
+        "address": "7666 S 43rd St",
+        "zip": "53205",
+        "price": 63000,
+        "sale_date": "2026-03-26",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 1846,
+        "assessed": 69463,
+        "taxkey": "9010256"
+      }
+    ]
+  },
+  "Harambee Homes LLC": {
+    "name": "Harambee Homes LLC",
+    "deal_count": 19,
+    "first_purchase": "2024-02-07",
+    "last_purchase": "2026-03-29",
+    "days_since_last_purchase": 46,
+    "avg_days_between_purchases": 43,
+    "price_min": 59000,
+    "price_max": 133000,
+    "price_avg": 96000,
+    "top_zips": [
+      "53211",
+      "53206"
+    ],
+    "zip_counts": {
+      "53211": 15,
+      "53206": 4
+    },
+    "top_property_types": [
+      "Single Family",
+      "Triplex"
+    ],
+    "type_counts": {
+      "Single Family": 13,
+      "Triplex": 6
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 4,
+    "avg_sqft": 1970,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1922,
+    "avg_price_to_assessed_pct": 74.0,
+    "purchases": [
+      {
+        "address": "6580 W North Ave",
+        "zip": "53206",
+        "price": 61000,
+        "sale_date": "2024-02-07",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1934,
+        "sqft": 1511,
+        "assessed": 70079,
+        "taxkey": "6475691"
+      },
+      {
+        "address": "4043 N 76th St",
+        "zip": "53211",
+        "price": 100000,
+        "sale_date": "2024-03-03",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1944,
+        "sqft": 1684,
+        "assessed": 137651,
+        "taxkey": "2437708"
+      },
+      {
+        "address": "1256 W Fond du Lac Ave",
+        "zip": "53211",
+        "price": 59000,
+        "sale_date": "2024-04-12",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1974,
+        "sqft": 1444,
+        "assessed": 70190,
+        "taxkey": "7682298"
+      },
+      {
+        "address": "7652 W Greenfield Ave",
+        "zip": "53211",
+        "price": 89000,
+        "sale_date": "2024-08-13",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1925,
+        "sqft": 2728,
+        "assessed": 133274,
+        "taxkey": "5080351"
+      },
+      {
+        "address": "3937 W Vliet St",
+        "zip": "53211",
+        "price": 119000,
+        "sale_date": "2024-10-19",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1963,
+        "sqft": 1681,
+        "assessed": 179282,
+        "taxkey": "9797727"
+      },
+      {
+        "address": "8790 W Oklahoma Ave",
+        "zip": "53211",
+        "price": 122000,
+        "sale_date": "2024-11-27",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1934,
+        "sqft": 1232,
+        "assessed": 190268,
+        "taxkey": "2247353"
+      },
+      {
+        "address": "8798 N 20th St",
+        "zip": "53206",
+        "price": 59000,
+        "sale_date": "2025-01-29",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1944,
+        "sqft": 2744,
+        "assessed": 67658,
+        "taxkey": "3875339"
+      },
+      {
+        "address": "9856 W Burnham St",
+        "zip": "53206",
+        "price": 127000,
+        "sale_date": "2025-02-17",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1944,
+        "sqft": 2186,
+        "assessed": 192700,
+        "taxkey": "3347981"
+      },
+      {
+        "address": "9000 N Teutonia Ave",
+        "zip": "53211",
+        "price": 100000,
+        "sale_date": "2025-03-11",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1966,
+        "sqft": 1919,
+        "assessed": 118463,
+        "taxkey": "1985360"
+      },
+      {
+        "address": "9180 W Lisbon Ave",
+        "zip": "53211",
+        "price": 97000,
+        "sale_date": "2025-08-09",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 1303,
+        "assessed": 117855,
+        "taxkey": "6663388"
+      },
+      {
+        "address": "1257 N 12th St",
+        "zip": "53211",
+        "price": 133000,
+        "sale_date": "2025-09-15",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1962,
+        "sqft": 1799,
+        "assessed": 206997,
+        "taxkey": "7901115"
+      },
+      {
+        "address": "4625 W Center St",
+        "zip": "53211",
+        "price": 102000,
+        "sale_date": "2025-09-17",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1922,
+        "sqft": 1952,
+        "assessed": 128159,
+        "taxkey": "5375063"
+      },
+      {
+        "address": "6892 N Port Washington Rd",
+        "zip": "53206",
+        "price": 123000,
+        "sale_date": "2025-10-03",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1939,
+        "sqft": 1335,
+        "assessed": 175196,
+        "taxkey": "8818250"
+      },
+      {
+        "address": "2113 W Center St",
+        "zip": "53211",
+        "price": 107000,
+        "sale_date": "2025-11-05",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1960,
+        "sqft": 2147,
+        "assessed": 125055,
+        "taxkey": "4669507"
+      },
+      {
+        "address": "4974 W North Ave",
+        "zip": "53211",
+        "price": 70000,
+        "sale_date": "2025-11-30",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1968,
+        "sqft": 3161,
+        "assessed": 103140,
+        "taxkey": "7654381"
+      },
+      {
+        "address": "7079 N 35th St",
+        "zip": "53211",
+        "price": 81000,
+        "sale_date": "2025-12-26",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1925,
+        "sqft": 3042,
+        "assessed": 102475,
+        "taxkey": "4195751"
+      },
+      {
+        "address": "1944 W Lisbon Ave",
+        "zip": "53211",
+        "price": 93000,
+        "sale_date": "2026-01-25",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1929,
+        "sqft": 1748,
+        "assessed": 142175,
+        "taxkey": "7987842"
+      },
+      {
+        "address": "4555 S 27th St",
+        "zip": "53211",
+        "price": 79000,
+        "sale_date": "2026-01-30",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1957,
+        "sqft": 2175,
+        "assessed": 118683,
+        "taxkey": "6586214"
+      },
+      {
+        "address": "7688 W Center St",
+        "zip": "53211",
+        "price": 103000,
+        "sale_date": "2026-03-29",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1940,
+        "sqft": 1652,
+        "assessed": 153768,
+        "taxkey": "7315953"
+      }
+    ]
+  },
+  "Walker's Point Properties LLC": {
+    "name": "Walker's Point Properties LLC",
+    "deal_count": 5,
+    "first_purchase": "2025-09-03",
+    "last_purchase": "2025-12-23",
+    "days_since_last_purchase": 142,
+    "avg_days_between_purchases": 28,
+    "price_min": 68000,
+    "price_max": 96000,
+    "price_avg": 82200,
+    "top_zips": [
+      "53211",
+      "53209"
+    ],
+    "zip_counts": {
+      "53211": 4,
+      "53209": 1
+    },
+    "top_property_types": [
+      "Triplex"
+    ],
+    "type_counts": {
+      "Triplex": 5
+    },
+    "avg_bedrooms": 2.4,
+    "max_bedrooms": 3,
+    "avg_sqft": 2248,
+    "yr_built_avg": 1957,
+    "yr_built_min": 1937,
+    "avg_price_to_assessed_pct": 76.1,
+    "purchases": [
+      {
+        "address": "3777 W Center St",
+        "zip": "53211",
+        "price": 96000,
+        "sale_date": "2025-09-03",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1963,
+        "sqft": 2759,
+        "assessed": 130613,
+        "taxkey": "6052144"
+      },
+      {
+        "address": "6443 W North Ave",
+        "zip": "53209",
+        "price": 68000,
+        "sale_date": "2025-09-05",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1980,
+        "sqft": 2820,
+        "assessed": 85158,
+        "taxkey": "6528792"
+      },
+      {
+        "address": "6916 W Oklahoma Ave",
+        "zip": "53211",
+        "price": 77000,
+        "sale_date": "2025-10-20",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1950,
+        "sqft": 1515,
+        "assessed": 100912,
+        "taxkey": "5137094"
+      },
+      {
+        "address": "7311 N 12th St",
+        "zip": "53211",
+        "price": 82000,
+        "sale_date": "2025-12-16",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1958,
+        "sqft": 2528,
+        "assessed": 112923,
+        "taxkey": "7942580"
+      },
+      {
+        "address": "3170 N 35th St",
+        "zip": "53211",
+        "price": 88000,
+        "sale_date": "2025-12-23",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1937,
+        "sqft": 1618,
+        "assessed": 112636,
+        "taxkey": "8230636"
+      }
+    ]
+  },
+  "Clarke Square Investments LLC": {
+    "name": "Clarke Square Investments LLC",
+    "deal_count": 5,
+    "first_purchase": "2025-07-16",
+    "last_purchase": "2025-12-06",
+    "days_since_last_purchase": 159,
+    "avg_days_between_purchases": 36,
+    "price_min": 89000,
+    "price_max": 114000,
+    "price_avg": 106200,
+    "top_zips": [
+      "53212",
+      "53215"
+    ],
+    "zip_counts": {
+      "53212": 3,
+      "53215": 2
+    },
+    "top_property_types": [
+      "Triplex"
+    ],
+    "type_counts": {
+      "Triplex": 5
+    },
+    "avg_bedrooms": 4.0,
+    "max_bedrooms": 4,
+    "avg_sqft": 2524,
+    "yr_built_avg": 1953,
+    "yr_built_min": 1922,
+    "avg_price_to_assessed_pct": 81.6,
+    "purchases": [
+      {
+        "address": "9796 W North Ave",
+        "zip": "53215",
+        "price": 114000,
+        "sale_date": "2025-07-16",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1922,
+        "sqft": 2672,
+        "assessed": 149243,
+        "taxkey": "2425760"
+      },
+      {
+        "address": "6432 N Sherman Blvd",
+        "zip": "53212",
+        "price": 109000,
+        "sale_date": "2025-07-25",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1961,
+        "sqft": 2836,
+        "assessed": 122314,
+        "taxkey": "1176962"
+      },
+      {
+        "address": "7932 W Capitol Dr",
+        "zip": "53215",
+        "price": 89000,
+        "sale_date": "2025-09-20",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1962,
+        "sqft": 1831,
+        "assessed": 108669,
+        "taxkey": "8534089"
+      },
+      {
+        "address": "4434 W Greenfield Ave",
+        "zip": "53212",
+        "price": 105000,
+        "sale_date": "2025-10-17",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1966,
+        "sqft": 3090,
+        "assessed": 116913,
+        "taxkey": "2160289"
+      },
+      {
+        "address": "6339 W Capitol Dr",
+        "zip": "53212",
+        "price": 114000,
+        "sale_date": "2025-12-06",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1956,
+        "sqft": 2192,
+        "assessed": 161475,
+        "taxkey": "7592357"
+      }
+    ]
+  },
+  "Brady Street Holdings LLC": {
+    "name": "Brady Street Holdings LLC",
+    "deal_count": 8,
+    "first_purchase": "2025-01-11",
+    "last_purchase": "2025-10-24",
+    "days_since_last_purchase": 202,
+    "avg_days_between_purchases": 41,
+    "price_min": 77000,
+    "price_max": 109000,
+    "price_avg": 91125,
+    "top_zips": [
+      "53210"
+    ],
+    "zip_counts": {
+      "53210": 8
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 8
+    },
+    "avg_bedrooms": 3.5,
+    "max_bedrooms": 4,
+    "avg_sqft": 1574,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1929,
+    "avg_price_to_assessed_pct": 78.6,
+    "purchases": [
+      {
+        "address": "3826 N Hopkins St",
+        "zip": "53210",
+        "price": 107000,
+        "sale_date": "2025-01-11",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1942,
+        "sqft": 1737,
+        "assessed": 123811,
+        "taxkey": "2421902"
+      },
+      {
+        "address": "9369 W Capitol Dr",
+        "zip": "53210",
+        "price": 77000,
+        "sale_date": "2025-05-03",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1964,
+        "sqft": 1089,
+        "assessed": 91747,
+        "taxkey": "3313029"
+      },
+      {
+        "address": "2867 W Oklahoma Ave",
+        "zip": "53210",
+        "price": 81000,
+        "sale_date": "2025-05-16",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1932,
+        "sqft": 1737,
+        "assessed": 103914,
+        "taxkey": "9853588"
+      },
+      {
+        "address": "8037 W Capitol Dr",
+        "zip": "53210",
+        "price": 109000,
+        "sale_date": "2025-05-23",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1948,
+        "sqft": 2012,
+        "assessed": 168028,
+        "taxkey": "4603680"
+      },
+      {
+        "address": "4798 W Capitol Dr",
+        "zip": "53210",
+        "price": 80000,
+        "sale_date": "2025-05-28",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1947,
+        "sqft": 1746,
+        "assessed": 101239,
+        "taxkey": "4127053"
+      },
+      {
+        "address": "1370 W Burnham St",
+        "zip": "53210",
+        "price": 89000,
+        "sale_date": "2025-07-30",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 1035,
+        "assessed": 99888,
+        "taxkey": "3757404"
+      },
+      {
+        "address": "4389 N Port Washington Rd",
+        "zip": "53210",
+        "price": 79000,
+        "sale_date": "2025-08-08",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1941,
+        "sqft": 1732,
+        "assessed": 100658,
+        "taxkey": "6843509"
+      },
+      {
+        "address": "1402 S 27th St",
+        "zip": "53210",
+        "price": 107000,
+        "sale_date": "2025-10-24",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1929,
+        "sqft": 1506,
+        "assessed": 154638,
+        "taxkey": "5956530"
+      }
+    ]
+  },
+  "Concordia Properties LLC": {
+    "name": "Concordia Properties LLC",
+    "deal_count": 5,
+    "first_purchase": "2025-06-14",
+    "last_purchase": "2025-11-15",
+    "days_since_last_purchase": 180,
+    "avg_days_between_purchases": 38,
+    "price_min": 55000,
+    "price_max": 76000,
+    "price_avg": 65800,
+    "top_zips": [
+      "53214",
+      "53215"
+    ],
+    "zip_counts": {
+      "53214": 3,
+      "53215": 2
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 5
+    },
+    "avg_bedrooms": 2.6,
+    "max_bedrooms": 4,
+    "avg_sqft": 2113,
+    "yr_built_avg": 1951,
+    "yr_built_min": 1925,
+    "avg_price_to_assessed_pct": 72.3,
+    "purchases": [
+      {
+        "address": "8015 N Teutonia Ave",
+        "zip": "53214",
+        "price": 55000,
+        "sale_date": "2025-06-14",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1967,
+        "sqft": 2636,
+        "assessed": 66271,
+        "taxkey": "4466502"
+      },
+      {
+        "address": "5055 N Hopkins St",
+        "zip": "53215",
+        "price": 68000,
+        "sale_date": "2025-07-22",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1947,
+        "sqft": 1619,
+        "assessed": 93376,
+        "taxkey": "8545256"
+      },
+      {
+        "address": "9369 W Vliet St",
+        "zip": "53214",
+        "price": 76000,
+        "sale_date": "2025-10-17",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1969,
+        "sqft": 3228,
+        "assessed": 111815,
+        "taxkey": "5494430"
+      },
+      {
+        "address": "4613 N Hopkins St",
+        "zip": "53215",
+        "price": 68000,
+        "sale_date": "2025-11-02",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1925,
+        "sqft": 1326,
+        "assessed": 91415,
+        "taxkey": "5611266"
+      },
+      {
+        "address": "4196 W Capitol Dr",
+        "zip": "53214",
+        "price": 62000,
+        "sale_date": "2025-11-15",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1951,
+        "sqft": 1759,
+        "assessed": 97707,
+        "taxkey": "9479842"
+      }
+    ]
+  },
+  "Merrill Park Holdings LLC": {
+    "name": "Merrill Park Holdings LLC",
+    "deal_count": 6,
+    "first_purchase": "2025-08-12",
+    "last_purchase": "2026-01-09",
+    "days_since_last_purchase": 125,
+    "avg_days_between_purchases": 30,
+    "price_min": 43000,
+    "price_max": 71000,
+    "price_avg": 55500,
+    "top_zips": [
+      "53203"
+    ],
+    "zip_counts": {
+      "53203": 6
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 6
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 4,
+    "avg_sqft": 1556,
+    "yr_built_avg": 1967,
+    "yr_built_min": 1944,
+    "avg_price_to_assessed_pct": 76.7,
+    "purchases": [
+      {
+        "address": "2529 S 43rd St",
+        "zip": "53203",
+        "price": 59000,
+        "sale_date": "2025-08-12",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1979,
+        "sqft": 1361,
+        "assessed": 69589,
+        "taxkey": "5200835"
+      },
+      {
+        "address": "1266 W Vliet St",
+        "zip": "53203",
+        "price": 43000,
+        "sale_date": "2025-08-29",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1960,
+        "sqft": 1741,
+        "assessed": 48287,
+        "taxkey": "8403549"
+      },
+      {
+        "address": "6533 W Lisbon Ave",
+        "zip": "53203",
+        "price": 71000,
+        "sale_date": "2025-10-12",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1973,
+        "sqft": 1380,
+        "assessed": 87633,
+        "taxkey": "3191007"
+      },
+      {
+        "address": "8511 S 43rd St",
+        "zip": "53203",
+        "price": 60000,
+        "sale_date": "2025-10-14",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1975,
+        "sqft": 990,
+        "assessed": 83458,
+        "taxkey": "7009980"
+      },
+      {
+        "address": "2237 S 43rd St",
+        "zip": "53203",
+        "price": 57000,
+        "sale_date": "2025-11-11",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1944,
+        "sqft": 1725,
+        "assessed": 80592,
+        "taxkey": "2561871"
+      },
+      {
+        "address": "3078 W Center St",
+        "zip": "53203",
+        "price": 43000,
+        "sale_date": "2026-01-09",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1975,
+        "sqft": 2143,
+        "assessed": 68638,
+        "taxkey": "3453557"
+      }
+    ]
+  },
+  "Lincoln Village LLC": {
+    "name": "Lincoln Village LLC",
+    "deal_count": 5,
+    "first_purchase": "2025-07-11",
+    "last_purchase": "2026-01-05",
+    "days_since_last_purchase": 129,
+    "avg_days_between_purchases": 44,
+    "price_min": 58000,
+    "price_max": 86000,
+    "price_avg": 70200,
+    "top_zips": [
+      "53213"
+    ],
+    "zip_counts": {
+      "53213": 5
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 5
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 4,
+    "avg_sqft": 1330,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1925,
+    "avg_price_to_assessed_pct": 77.1,
+    "purchases": [
+      {
+        "address": "5668 N 12th St",
+        "zip": "53213",
+        "price": 65000,
+        "sale_date": "2025-07-11",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1925,
+        "sqft": 1308,
+        "assessed": 80501,
+        "taxkey": "4446807"
+      },
+      {
+        "address": "3293 W Vliet St",
+        "zip": "53213",
+        "price": 78000,
+        "sale_date": "2025-07-29",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1925,
+        "sqft": 1005,
+        "assessed": 119338,
+        "taxkey": "7442986"
+      },
+      {
+        "address": "8210 N 51st Blvd",
+        "zip": "53213",
+        "price": 86000,
+        "sale_date": "2025-10-26",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1961,
+        "sqft": 1136,
+        "assessed": 94964,
+        "taxkey": "4574477"
+      },
+      {
+        "address": "2690 W Burnham St",
+        "zip": "53213",
+        "price": 64000,
+        "sale_date": "2025-11-20",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1966,
+        "sqft": 1009,
+        "assessed": 82658,
+        "taxkey": "6020671"
+      },
+      {
+        "address": "8291 N 12th St",
+        "zip": "53213",
+        "price": 58000,
+        "sale_date": "2026-01-05",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1953,
+        "sqft": 2192,
+        "assessed": 81016,
+        "taxkey": "6764217"
+      }
+    ]
+  },
+  "Silver Spring Acquisitions LLC": {
+    "name": "Silver Spring Acquisitions LLC",
+    "deal_count": 7,
+    "first_purchase": "2025-06-08",
+    "last_purchase": "2026-02-21",
+    "days_since_last_purchase": 82,
+    "avg_days_between_purchases": 43,
+    "price_min": 40000,
+    "price_max": 74000,
+    "price_avg": 56000,
+    "top_zips": [
+      "53222",
+      "53219",
+      "53208"
+    ],
+    "zip_counts": {
+      "53222": 4,
+      "53219": 2,
+      "53208": 1
+    },
+    "top_property_types": [
+      "Triplex",
+      "Single Family"
+    ],
+    "type_counts": {
+      "Triplex": 5,
+      "Single Family": 2
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 4,
+    "avg_sqft": 1754,
+    "yr_built_avg": 1941,
+    "yr_built_min": 1922,
+    "avg_price_to_assessed_pct": 77.3,
+    "purchases": [
+      {
+        "address": "7024 N Teutonia Ave",
+        "zip": "53222",
+        "price": 63000,
+        "sale_date": "2025-06-08",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1974,
+        "sqft": 1883,
+        "assessed": 71046,
+        "taxkey": "2726457"
+      },
+      {
+        "address": "1185 N Teutonia Ave",
+        "zip": "53222",
+        "price": 51000,
+        "sale_date": "2025-10-11",
+        "bedrooms": 4,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1965,
+        "sqft": 1762,
+        "assessed": 59145,
+        "taxkey": "6816746"
+      },
+      {
+        "address": "1948 S 6th St",
+        "zip": "53208",
+        "price": 44000,
+        "sale_date": "2025-10-26",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1947,
+        "sqft": 2177,
+        "assessed": 55223,
+        "taxkey": "8289425"
+      },
+      {
+        "address": "6488 N Sherman Blvd",
+        "zip": "53222",
+        "price": 57000,
+        "sale_date": "2025-11-05",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1927,
+        "sqft": 860,
+        "assessed": 83588,
+        "taxkey": "9788815"
+      },
+      {
+        "address": "2369 N Hopkins St",
+        "zip": "53219",
+        "price": 74000,
+        "sale_date": "2026-01-04",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1929,
+        "sqft": 1368,
+        "assessed": 101293,
+        "taxkey": "9578269"
+      },
+      {
+        "address": "7895 N 51st Blvd",
+        "zip": "53222",
+        "price": 63000,
+        "sale_date": "2026-01-17",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1928,
+        "sqft": 2784,
+        "assessed": 98718,
+        "taxkey": "3898604"
+      },
+      {
+        "address": "7520 N Port Washington Rd",
+        "zip": "53219",
+        "price": 40000,
+        "sale_date": "2026-02-21",
+        "bedrooms": 2,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1922,
+        "sqft": 1447,
+        "assessed": 49243,
+        "taxkey": "9406206"
+      }
+    ]
+  },
+  "Granville Investments LLC": {
+    "name": "Granville Investments LLC",
+    "deal_count": 4,
+    "first_purchase": "2025-08-14",
+    "last_purchase": "2025-11-14",
+    "days_since_last_purchase": 181,
+    "avg_days_between_purchases": 31,
+    "price_min": 37000,
+    "price_max": 48000,
+    "price_avg": 42750,
+    "top_zips": [
+      "53205",
+      "53219"
+    ],
+    "zip_counts": {
+      "53205": 3,
+      "53219": 1
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 4
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 4,
+    "avg_sqft": 1900,
+    "yr_built_avg": 1953,
+    "yr_built_min": 1939,
+    "avg_price_to_assessed_pct": 71.7,
+    "purchases": [
+      {
+        "address": "4201 W Lisbon Ave",
+        "zip": "53205",
+        "price": 37000,
+        "sale_date": "2025-08-14",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1957,
+        "sqft": 1810,
+        "assessed": 49282,
+        "taxkey": "3526084"
+      },
+      {
+        "address": "2415 W Lisbon Ave",
+        "zip": "53219",
+        "price": 39000,
+        "sale_date": "2025-09-20",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1939,
+        "sqft": 1470,
+        "assessed": 57983,
+        "taxkey": "1133700"
+      },
+      {
+        "address": "1862 N Teutonia Ave",
+        "zip": "53205",
+        "price": 48000,
+        "sale_date": "2025-10-26",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1952,
+        "sqft": 2178,
+        "assessed": 61747,
+        "taxkey": "9653253"
+      },
+      {
+        "address": "7870 S 6th St",
+        "zip": "53205",
+        "price": 47000,
+        "sale_date": "2025-11-14",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 2142,
+        "assessed": 70573,
+        "taxkey": "5165165"
+      }
+    ]
+  },
+  "Menomonee Valley LLC": {
+    "name": "Menomonee Valley LLC",
+    "deal_count": 4,
+    "first_purchase": "2025-10-17",
+    "last_purchase": "2026-01-07",
+    "days_since_last_purchase": 127,
+    "avg_days_between_purchases": 27,
+    "price_min": 56000,
+    "price_max": 83000,
+    "price_avg": 69250,
+    "top_zips": [
+      "53215"
+    ],
+    "zip_counts": {
+      "53215": 4
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 4
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 4,
+    "avg_sqft": 2573,
+    "yr_built_avg": 1954,
+    "yr_built_min": 1930,
+    "avg_price_to_assessed_pct": 75.8,
+    "purchases": [
+      {
+        "address": "7438 W Burnham St",
+        "zip": "53215",
+        "price": 65000,
+        "sale_date": "2025-10-17",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1974,
+        "sqft": 2490,
+        "assessed": 80979,
+        "taxkey": "8596016"
+      },
+      {
+        "address": "8635 W Burnham St",
+        "zip": "53215",
+        "price": 56000,
+        "sale_date": "2025-10-27",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1930,
+        "sqft": 3041,
+        "assessed": 65951,
+        "taxkey": "3025626"
+      },
+      {
+        "address": "2565 N Port Washington Rd",
+        "zip": "53215",
+        "price": 73000,
+        "sale_date": "2025-12-04",
+        "bedrooms": 4,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1967,
+        "sqft": 1547,
+        "assessed": 97033,
+        "taxkey": "7616116"
+      },
+      {
+        "address": "1981 W Center St",
+        "zip": "53215",
+        "price": 83000,
+        "sale_date": "2026-01-07",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1946,
+        "sqft": 3215,
+        "assessed": 132099,
+        "taxkey": "5694689"
+      }
+    ]
+  },
+  "Kilbourn Park Properties LLC": {
+    "name": "Kilbourn Park Properties LLC",
+    "deal_count": 6,
+    "first_purchase": "2025-05-02",
+    "last_purchase": "2025-10-18",
+    "days_since_last_purchase": 208,
+    "avg_days_between_purchases": 34,
+    "price_min": 37000,
+    "price_max": 49000,
+    "price_avg": 43333,
+    "top_zips": [
+      "53213",
+      "53216"
+    ],
+    "zip_counts": {
+      "53213": 5,
+      "53216": 1
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 6
+    },
+    "avg_bedrooms": 3.5,
+    "max_bedrooms": 4,
+    "avg_sqft": 1633,
+    "yr_built_avg": 1944,
+    "yr_built_min": 1925,
+    "avg_price_to_assessed_pct": 72.0,
+    "purchases": [
+      {
+        "address": "4517 N Teutonia Ave",
+        "zip": "53213",
+        "price": 42000,
+        "sale_date": "2025-05-02",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1931,
+        "sqft": 1524,
+        "assessed": 60547,
+        "taxkey": "5695180"
+      },
+      {
+        "address": "3007 N 20th St",
+        "zip": "53213",
+        "price": 44000,
+        "sale_date": "2025-06-08",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1925,
+        "sqft": 1479,
+        "assessed": 66204,
+        "taxkey": "1849559"
+      },
+      {
+        "address": "7750 W Lisbon Ave",
+        "zip": "53213",
+        "price": 49000,
+        "sale_date": "2025-07-03",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1938,
+        "sqft": 1821,
+        "assessed": 59921,
+        "taxkey": "2023059"
+      },
+      {
+        "address": "2376 N 76th St",
+        "zip": "53216",
+        "price": 41000,
+        "sale_date": "2025-08-25",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1980,
+        "sqft": 2120,
+        "assessed": 59168,
+        "taxkey": "2258076"
+      },
+      {
+        "address": "3290 W Vliet St",
+        "zip": "53213",
+        "price": 47000,
+        "sale_date": "2025-09-13",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1949,
+        "sqft": 1008,
+        "assessed": 57571,
+        "taxkey": "2034637"
+      },
+      {
+        "address": "1802 N Hopkins St",
+        "zip": "53213",
+        "price": 37000,
+        "sale_date": "2025-10-18",
+        "bedrooms": 4,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1945,
+        "sqft": 1851,
+        "assessed": 58615,
+        "taxkey": "3917016"
+      }
+    ]
+  },
+  "Marcus Johnson": {
+    "name": "Marcus Johnson",
+    "deal_count": 3,
+    "first_purchase": "2025-02-12",
+    "last_purchase": "2025-05-04",
+    "days_since_last_purchase": 375,
+    "avg_days_between_purchases": 40,
+    "price_min": 36000,
+    "price_max": 59000,
+    "price_avg": 48333,
+    "top_zips": [
+      "53210"
+    ],
+    "zip_counts": {
+      "53210": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 1789,
+    "yr_built_avg": 1945,
+    "yr_built_min": 1934,
+    "avg_price_to_assessed_pct": 67.3,
+    "purchases": [
+      {
+        "address": "7363 N 51st Blvd",
+        "zip": "53210",
+        "price": 59000,
+        "sale_date": "2025-02-12",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1934,
+        "sqft": 1979,
+        "assessed": 94293,
+        "taxkey": "3914404"
+      },
+      {
+        "address": "9231 W Burnham St",
+        "zip": "53210",
+        "price": 50000,
+        "sale_date": "2025-04-21",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1951,
+        "sqft": 1504,
+        "assessed": 68612,
+        "taxkey": "5537157"
+      },
+      {
+        "address": "6856 N 76th St",
+        "zip": "53210",
+        "price": 36000,
+        "sale_date": "2025-05-04",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 1884,
+        "assessed": 54155,
+        "taxkey": "3678059"
+      }
+    ]
+  },
+  "Darius Williams": {
+    "name": "Darius Williams",
+    "deal_count": 2,
+    "first_purchase": "2025-04-10",
+    "last_purchase": "2025-04-15",
+    "days_since_last_purchase": 394,
+    "avg_days_between_purchases": 5,
+    "price_min": 48000,
+    "price_max": 74000,
+    "price_avg": 61000,
+    "top_zips": [
+      "53209"
+    ],
+    "zip_counts": {
+      "53209": 2
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 2
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 1940,
+    "yr_built_avg": 1941,
+    "yr_built_min": 1931,
+    "avg_price_to_assessed_pct": 79.2,
+    "purchases": [
+      {
+        "address": "2478 N 20th St",
+        "zip": "53209",
+        "price": 74000,
+        "sale_date": "2025-04-10",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1951,
+        "sqft": 1355,
+        "assessed": 92834,
+        "taxkey": "4671004"
+      },
+      {
+        "address": "1975 N 12th St",
+        "zip": "53209",
+        "price": 48000,
+        "sale_date": "2025-04-15",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1931,
+        "sqft": 2525,
+        "assessed": 60978,
+        "taxkey": "3376537"
+      }
+    ]
+  },
+  "Kevin Smith": {
+    "name": "Kevin Smith",
+    "deal_count": 5,
+    "first_purchase": "2025-01-28",
+    "last_purchase": "2025-06-16",
+    "days_since_last_purchase": 332,
+    "avg_days_between_purchases": 35,
+    "price_min": 34000,
+    "price_max": 55000,
+    "price_avg": 40800,
+    "top_zips": [
+      "53219"
+    ],
+    "zip_counts": {
+      "53219": 5
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 5
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 2709,
+    "yr_built_avg": 1932,
+    "yr_built_min": 1920,
+    "avg_price_to_assessed_pct": 76.0,
+    "purchases": [
+      {
+        "address": "7149 W Vliet St",
+        "zip": "53219",
+        "price": 45000,
+        "sale_date": "2025-01-28",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1942,
+        "sqft": 3436,
+        "assessed": 69339,
+        "taxkey": "4784650"
+      },
+      {
+        "address": "5205 W Vliet St",
+        "zip": "53219",
+        "price": 36000,
+        "sale_date": "2025-03-01",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1924,
+        "sqft": 2635,
+        "assessed": 44091,
+        "taxkey": "1807780"
+      },
+      {
+        "address": "1530 N Teutonia Ave",
+        "zip": "53219",
+        "price": 34000,
+        "sale_date": "2025-04-22",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1920,
+        "sqft": 2803,
+        "assessed": 40421,
+        "taxkey": "6338793"
+      },
+      {
+        "address": "6682 W Burnham St",
+        "zip": "53219",
+        "price": 34000,
+        "sale_date": "2025-05-06",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1924,
+        "sqft": 2174,
+        "assessed": 43029,
+        "taxkey": "2488575"
+      },
+      {
+        "address": "3854 W Lisbon Ave",
+        "zip": "53219",
+        "price": 55000,
+        "sale_date": "2025-06-16",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1951,
+        "sqft": 2499,
+        "assessed": 78079,
+        "taxkey": "6986539"
+      }
+    ]
+  },
+  "Antoine Davis": {
+    "name": "Antoine Davis",
+    "deal_count": 2,
+    "first_purchase": "2025-09-14",
+    "last_purchase": "2025-11-03",
+    "days_since_last_purchase": 192,
+    "avg_days_between_purchases": 50,
+    "price_min": 35000,
+    "price_max": 35000,
+    "price_avg": 35000,
+    "top_zips": [
+      "53216"
+    ],
+    "zip_counts": {
+      "53216": 2
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 2
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 1811,
+    "yr_built_avg": 1948,
+    "yr_built_min": 1941,
+    "avg_price_to_assessed_pct": 78.5,
+    "purchases": [
+      {
+        "address": "4112 N Sherman Blvd",
+        "zip": "53216",
+        "price": 35000,
+        "sale_date": "2025-09-14",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1941,
+        "sqft": 2041,
+        "assessed": 39437,
+        "taxkey": "5450404"
+      },
+      {
+        "address": "6536 W North Ave",
+        "zip": "53216",
+        "price": 35000,
+        "sale_date": "2025-11-03",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 1581,
+        "assessed": 51309,
+        "taxkey": "9098979"
+      }
+    ]
+  },
+  "James Brown": {
+    "name": "James Brown",
+    "deal_count": 6,
+    "first_purchase": "2025-01-23",
+    "last_purchase": "2025-07-26",
+    "days_since_last_purchase": 292,
+    "avg_days_between_purchases": 37,
+    "price_min": 31000,
+    "price_max": 55000,
+    "price_avg": 38666,
+    "top_zips": [
+      "53211",
+      "53209"
+    ],
+    "zip_counts": {
+      "53211": 5,
+      "53209": 1
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 6
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 2249,
+    "yr_built_avg": 1953,
+    "yr_built_min": 1928,
+    "avg_price_to_assessed_pct": 71.8,
+    "purchases": [
+      {
+        "address": "7936 N 35th St",
+        "zip": "53211",
+        "price": 36000,
+        "sale_date": "2025-01-23",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1928,
+        "sqft": 1374,
+        "assessed": 54152,
+        "taxkey": "4387643"
+      },
+      {
+        "address": "9226 N 76th St",
+        "zip": "53211",
+        "price": 32000,
+        "sale_date": "2025-02-24",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1965,
+        "sqft": 1342,
+        "assessed": 41516,
+        "taxkey": "3473761"
+      },
+      {
+        "address": "1999 W Capitol Dr",
+        "zip": "53209",
+        "price": 55000,
+        "sale_date": "2025-04-06",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1968,
+        "sqft": 2131,
+        "assessed": 75389,
+        "taxkey": "9767475"
+      },
+      {
+        "address": "4706 W Oklahoma Ave",
+        "zip": "53211",
+        "price": 31000,
+        "sale_date": "2025-05-09",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1949,
+        "sqft": 2278,
+        "assessed": 38181,
+        "taxkey": "3535551"
+      },
+      {
+        "address": "5341 N 35th St",
+        "zip": "53211",
+        "price": 39000,
+        "sale_date": "2025-05-27",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1950,
+        "sqft": 3203,
+        "assessed": 58205,
+        "taxkey": "7501626"
+      },
+      {
+        "address": "4271 W Vliet St",
+        "zip": "53211",
+        "price": 39000,
+        "sale_date": "2025-07-26",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1960,
+        "sqft": 3167,
+        "assessed": 58965,
+        "taxkey": "4472094"
+      }
+    ]
+  },
+  "Robert Wilson": {
+    "name": "Robert Wilson",
+    "deal_count": 2,
+    "first_purchase": "2026-01-18",
+    "last_purchase": "2026-03-14",
+    "days_since_last_purchase": 61,
+    "avg_days_between_purchases": 55,
+    "price_min": 40000,
+    "price_max": 58000,
+    "price_avg": 49000,
+    "top_zips": [
+      "53222"
+    ],
+    "zip_counts": {
+      "53222": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 2
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 1822,
+    "yr_built_avg": 1950,
+    "yr_built_min": 1942,
+    "avg_price_to_assessed_pct": 66.1,
+    "purchases": [
+      {
+        "address": "5327 W Capitol Dr",
+        "zip": "53222",
+        "price": 58000,
+        "sale_date": "2026-01-18",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1942,
+        "sqft": 1641,
+        "assessed": 88956,
+        "taxkey": "9146760"
+      },
+      {
+        "address": "9561 N Sherman Blvd",
+        "zip": "53222",
+        "price": 40000,
+        "sale_date": "2026-03-14",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1959,
+        "sqft": 2003,
+        "assessed": 59731,
+        "taxkey": "7953189"
+      }
+    ]
+  },
+  "Michael Thompson": {
+    "name": "Michael Thompson",
+    "deal_count": 6,
+    "first_purchase": "2025-02-15",
+    "last_purchase": "2025-06-19",
+    "days_since_last_purchase": 329,
+    "avg_days_between_purchases": 25,
+    "price_min": 46000,
+    "price_max": 61000,
+    "price_avg": 54666,
+    "top_zips": [
+      "53203",
+      "53207"
+    ],
+    "zip_counts": {
+      "53203": 4,
+      "53207": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 6
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 1425,
+    "yr_built_avg": 1941,
+    "yr_built_min": 1921,
+    "avg_price_to_assessed_pct": 74.2,
+    "purchases": [
+      {
+        "address": "3909 S 27th St",
+        "zip": "53207",
+        "price": 52000,
+        "sale_date": "2025-02-15",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 1713,
+        "assessed": 66884,
+        "taxkey": "6775539"
+      },
+      {
+        "address": "3604 N 35th St",
+        "zip": "53203",
+        "price": 61000,
+        "sale_date": "2025-02-26",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1923,
+        "sqft": 1855,
+        "assessed": 93549,
+        "taxkey": "9502613"
+      },
+      {
+        "address": "4626 S 43rd St",
+        "zip": "53203",
+        "price": 57000,
+        "sale_date": "2025-03-05",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 1238,
+        "assessed": 64115,
+        "taxkey": "4468370"
+      },
+      {
+        "address": "6904 W Fond du Lac Ave",
+        "zip": "53203",
+        "price": 46000,
+        "sale_date": "2025-03-24",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1949,
+        "sqft": 903,
+        "assessed": 56338,
+        "taxkey": "7179919"
+      },
+      {
+        "address": "7828 W North Ave",
+        "zip": "53207",
+        "price": 59000,
+        "sale_date": "2025-05-09",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1940,
+        "sqft": 1351,
+        "assessed": 87733,
+        "taxkey": "2497984"
+      },
+      {
+        "address": "5965 N Hopkins St",
+        "zip": "53203",
+        "price": 53000,
+        "sale_date": "2025-06-19",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1921,
+        "sqft": 1491,
+        "assessed": 82071,
+        "taxkey": "9248001"
+      }
+    ]
+  },
+  "Carlos Rivera": {
+    "name": "Carlos Rivera",
+    "deal_count": 3,
+    "first_purchase": "2025-03-29",
+    "last_purchase": "2025-05-16",
+    "days_since_last_purchase": 363,
+    "avg_days_between_purchases": 24,
+    "price_min": 48000,
+    "price_max": 52000,
+    "price_avg": 50000,
+    "top_zips": [
+      "53223"
+    ],
+    "zip_counts": {
+      "53223": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 1617,
+    "yr_built_avg": 1950,
+    "yr_built_min": 1937,
+    "avg_price_to_assessed_pct": 76.4,
+    "purchases": [
+      {
+        "address": "7131 W Lisbon Ave",
+        "zip": "53223",
+        "price": 48000,
+        "sale_date": "2025-03-29",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1952,
+        "sqft": 2156,
+        "assessed": 55255,
+        "taxkey": "6007595"
+      },
+      {
+        "address": "5895 W Fond du Lac Ave",
+        "zip": "53223",
+        "price": 50000,
+        "sale_date": "2025-04-21",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1937,
+        "sqft": 1334,
+        "assessed": 63128,
+        "taxkey": "9678746"
+      },
+      {
+        "address": "7943 W Capitol Dr",
+        "zip": "53223",
+        "price": 52000,
+        "sale_date": "2025-05-16",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1961,
+        "sqft": 1363,
+        "assessed": 82342,
+        "taxkey": "8700708"
+      }
+    ]
+  },
+  "Steven Anderson": {
+    "name": "Steven Anderson",
+    "deal_count": 3,
+    "first_purchase": "2025-01-25",
+    "last_purchase": "2025-04-02",
+    "days_since_last_purchase": 407,
+    "avg_days_between_purchases": 34,
+    "price_min": 50000,
+    "price_max": 65000,
+    "price_avg": 56333,
+    "top_zips": [
+      "53203"
+    ],
+    "zip_counts": {
+      "53203": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 1530,
+    "yr_built_avg": 1948,
+    "yr_built_min": 1922,
+    "avg_price_to_assessed_pct": 73.8,
+    "purchases": [
+      {
+        "address": "7889 W Burnham St",
+        "zip": "53203",
+        "price": 54000,
+        "sale_date": "2025-01-25",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1967,
+        "sqft": 1428,
+        "assessed": 68992,
+        "taxkey": "5371458"
+      },
+      {
+        "address": "5813 W Vliet St",
+        "zip": "53203",
+        "price": 50000,
+        "sale_date": "2025-02-22",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1955,
+        "sqft": 1170,
+        "assessed": 76015,
+        "taxkey": "3146546"
+      },
+      {
+        "address": "4111 W Burnham St",
+        "zip": "53203",
+        "price": 65000,
+        "sale_date": "2025-04-02",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1922,
+        "sqft": 1994,
+        "assessed": 84118,
+        "taxkey": "9969688"
+      }
+    ]
+  },
+  "Patrick Moore": {
+    "name": "Patrick Moore",
+    "deal_count": 6,
+    "first_purchase": "2024-11-09",
+    "last_purchase": "2025-07-01",
+    "days_since_last_purchase": 317,
+    "avg_days_between_purchases": 47,
+    "price_min": 35000,
+    "price_max": 64000,
+    "price_avg": 54833,
+    "top_zips": [
+      "53216",
+      "53205"
+    ],
+    "zip_counts": {
+      "53216": 5,
+      "53205": 1
+    },
+    "top_property_types": [
+      "Fourplex"
+    ],
+    "type_counts": {
+      "Fourplex": 6
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 2070,
+    "yr_built_avg": 1944,
+    "yr_built_min": 1923,
+    "avg_price_to_assessed_pct": 75.9,
+    "purchases": [
+      {
+        "address": "9031 N 51st Blvd",
+        "zip": "53216",
+        "price": 57000,
+        "sale_date": "2024-11-09",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1928,
+        "sqft": 2603,
+        "assessed": 88007,
+        "taxkey": "3766286"
+      },
+      {
+        "address": "6015 N Teutonia Ave",
+        "zip": "53216",
+        "price": 49000,
+        "sale_date": "2025-03-09",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1944,
+        "sqft": 3261,
+        "assessed": 57058,
+        "taxkey": "1767026"
+      },
+      {
+        "address": "6279 N Port Washington Rd",
+        "zip": "53216",
+        "price": 64000,
+        "sale_date": "2025-03-10",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1943,
+        "sqft": 1257,
+        "assessed": 76781,
+        "taxkey": "1300582"
+      },
+      {
+        "address": "3120 W North Ave",
+        "zip": "53216",
+        "price": 61000,
+        "sale_date": "2025-04-25",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1969,
+        "sqft": 1560,
+        "assessed": 91048,
+        "taxkey": "8204299"
+      },
+      {
+        "address": "6134 S 43rd St",
+        "zip": "53205",
+        "price": 35000,
+        "sale_date": "2025-06-14",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1960,
+        "sqft": 1924,
+        "assessed": 47032,
+        "taxkey": "1079079"
+      },
+      {
+        "address": "3250 W Fond du Lac Ave",
+        "zip": "53216",
+        "price": 63000,
+        "sale_date": "2025-07-01",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1923,
+        "sqft": 1817,
+        "assessed": 78698,
+        "taxkey": "7865099"
+      }
+    ]
+  },
+  "Timothy Jackson": {
+    "name": "Timothy Jackson",
+    "deal_count": 2,
+    "first_purchase": "2025-05-25",
+    "last_purchase": "2025-07-06",
+    "days_since_last_purchase": 312,
+    "avg_days_between_purchases": 42,
+    "price_min": 52000,
+    "price_max": 52000,
+    "price_avg": 52000,
+    "top_zips": [
+      "53202"
+    ],
+    "zip_counts": {
+      "53202": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 2
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 1005,
+    "yr_built_avg": 1961,
+    "yr_built_min": 1958,
+    "avg_price_to_assessed_pct": 76.2,
+    "purchases": [
+      {
+        "address": "4366 S 43rd St",
+        "zip": "53202",
+        "price": 52000,
+        "sale_date": "2025-05-25",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1964,
+        "sqft": 1113,
+        "assessed": 63771,
+        "taxkey": "6051895"
+      },
+      {
+        "address": "2771 S 43rd St",
+        "zip": "53202",
+        "price": 52000,
+        "sale_date": "2025-07-06",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 898,
+        "assessed": 73401,
+        "taxkey": "1809249"
+      }
+    ]
+  },
+  "Gregory Harris": {
+    "name": "Gregory Harris",
+    "deal_count": 3,
+    "first_purchase": "2025-06-29",
+    "last_purchase": "2025-09-21",
+    "days_since_last_purchase": 235,
+    "avg_days_between_purchases": 42,
+    "price_min": 66000,
+    "price_max": 81000,
+    "price_avg": 75666,
+    "top_zips": [
+      "53205"
+    ],
+    "zip_counts": {
+      "53205": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 2.0,
+    "max_bedrooms": 2,
+    "avg_sqft": 1190,
+    "yr_built_avg": 1933,
+    "yr_built_min": 1920,
+    "avg_price_to_assessed_pct": 77.6,
+    "purchases": [
+      {
+        "address": "5327 W Greenfield Ave",
+        "zip": "53205",
+        "price": 66000,
+        "sale_date": "2025-06-29",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1949,
+        "sqft": 1406,
+        "assessed": 93863,
+        "taxkey": "2674515"
+      },
+      {
+        "address": "2458 W Vliet St",
+        "zip": "53205",
+        "price": 80000,
+        "sale_date": "2025-07-08",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1920,
+        "sqft": 826,
+        "assessed": 101224,
+        "taxkey": "9289690"
+      },
+      {
+        "address": "9571 W Fond du Lac Ave",
+        "zip": "53205",
+        "price": 81000,
+        "sale_date": "2025-09-21",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1932,
+        "sqft": 1338,
+        "assessed": 97145,
+        "taxkey": "7874568"
+      }
+    ]
+  },
+  "Raymond White": {
+    "name": "Raymond White",
+    "deal_count": 4,
+    "first_purchase": "2025-04-06",
+    "last_purchase": "2025-08-12",
+    "days_since_last_purchase": 275,
+    "avg_days_between_purchases": 43,
+    "price_min": 47000,
+    "price_max": 76000,
+    "price_avg": 59250,
+    "top_zips": [
+      "53203"
+    ],
+    "zip_counts": {
+      "53203": 4
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 4
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 3,
+    "avg_sqft": 1670,
+    "yr_built_avg": 1944,
+    "yr_built_min": 1931,
+    "avg_price_to_assessed_pct": 70.7,
+    "purchases": [
+      {
+        "address": "2037 W Oklahoma Ave",
+        "zip": "53203",
+        "price": 47000,
+        "sale_date": "2025-04-06",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1948,
+        "sqft": 894,
+        "assessed": 72558,
+        "taxkey": "1207369"
+      },
+      {
+        "address": "7221 N 51st Blvd",
+        "zip": "53203",
+        "price": 76000,
+        "sale_date": "2025-07-09",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1931,
+        "sqft": 2051,
+        "assessed": 109378,
+        "taxkey": "1483456"
+      },
+      {
+        "address": "3732 W Vliet St",
+        "zip": "53203",
+        "price": 64000,
+        "sale_date": "2025-08-11",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1950,
+        "sqft": 1663,
+        "assessed": 92476,
+        "taxkey": "1983923"
+      },
+      {
+        "address": "5395 N 35th St",
+        "zip": "53203",
+        "price": 50000,
+        "sale_date": "2025-08-12",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1948,
+        "sqft": 2073,
+        "assessed": 63216,
+        "taxkey": "6749933"
+      }
+    ]
+  },
+  "Kenneth Martin": {
+    "name": "Kenneth Martin",
+    "deal_count": 3,
+    "first_purchase": "2025-05-31",
+    "last_purchase": "2025-08-10",
+    "days_since_last_purchase": 277,
+    "avg_days_between_purchases": 36,
+    "price_min": 45000,
+    "price_max": 73000,
+    "price_avg": 55333,
+    "top_zips": [
+      "53212"
+    ],
+    "zip_counts": {
+      "53212": 3
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 3
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 2430,
+    "yr_built_avg": 1945,
+    "yr_built_min": 1930,
+    "avg_price_to_assessed_pct": 74.6,
+    "purchases": [
+      {
+        "address": "2681 W Capitol Dr",
+        "zip": "53212",
+        "price": 73000,
+        "sale_date": "2025-05-31",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1951,
+        "sqft": 1272,
+        "assessed": 91836,
+        "taxkey": "1601160"
+      },
+      {
+        "address": "7607 S 6th St",
+        "zip": "53212",
+        "price": 48000,
+        "sale_date": "2025-07-27",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 2750,
+        "assessed": 64966,
+        "taxkey": "8702329"
+      },
+      {
+        "address": "8688 S 27th St",
+        "zip": "53212",
+        "price": 45000,
+        "sale_date": "2025-08-10",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1930,
+        "sqft": 3270,
+        "assessed": 63976,
+        "taxkey": "2256030"
+      }
+    ]
+  },
+  "Donald Taylor": {
+    "name": "Donald Taylor",
+    "deal_count": 3,
+    "first_purchase": "2025-03-22",
+    "last_purchase": "2025-05-13",
+    "days_since_last_purchase": 366,
+    "avg_days_between_purchases": 26,
+    "price_min": 56000,
+    "price_max": 90000,
+    "price_avg": 75000,
+    "top_zips": [
+      "53204"
+    ],
+    "zip_counts": {
+      "53204": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 1724,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1932,
+    "avg_price_to_assessed_pct": 74.6,
+    "purchases": [
+      {
+        "address": "2978 W Capitol Dr",
+        "zip": "53204",
+        "price": 56000,
+        "sale_date": "2025-03-22",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1932,
+        "sqft": 1184,
+        "assessed": 68720,
+        "taxkey": "8667959"
+      },
+      {
+        "address": "8751 N 51st Blvd",
+        "zip": "53204",
+        "price": 79000,
+        "sale_date": "2025-04-07",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1969,
+        "sqft": 2069,
+        "assessed": 100012,
+        "taxkey": "2912994"
+      },
+      {
+        "address": "9552 N 51st Blvd",
+        "zip": "53204",
+        "price": 90000,
+        "sale_date": "2025-05-13",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1938,
+        "sqft": 1921,
+        "assessed": 142399,
+        "taxkey": "1768029"
+      }
+    ]
+  },
+  "Brian Lee": {
+    "name": "Brian Lee",
+    "deal_count": 6,
+    "first_purchase": "2025-08-17",
+    "last_purchase": "2026-02-12",
+    "days_since_last_purchase": 91,
+    "avg_days_between_purchases": 36,
+    "price_min": 46000,
+    "price_max": 62000,
+    "price_avg": 55833,
+    "top_zips": [
+      "53212"
+    ],
+    "zip_counts": {
+      "53212": 6
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 6
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 2739,
+    "yr_built_avg": 1946,
+    "yr_built_min": 1926,
+    "avg_price_to_assessed_pct": 66.3,
+    "purchases": [
+      {
+        "address": "7371 S 6th St",
+        "zip": "53212",
+        "price": 56000,
+        "sale_date": "2025-08-17",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1926,
+        "sqft": 2118,
+        "assessed": 84392,
+        "taxkey": "5825775"
+      },
+      {
+        "address": "3636 N Hopkins St",
+        "zip": "53212",
+        "price": 46000,
+        "sale_date": "2025-11-15",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1932,
+        "sqft": 2293,
+        "assessed": 66015,
+        "taxkey": "5203716"
+      },
+      {
+        "address": "7839 W Lisbon Ave",
+        "zip": "53212",
+        "price": 48000,
+        "sale_date": "2025-11-26",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 3167,
+        "assessed": 71058,
+        "taxkey": "8086467"
+      },
+      {
+        "address": "4560 W Fond du Lac Ave",
+        "zip": "53212",
+        "price": 62000,
+        "sale_date": "2026-01-02",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1965,
+        "sqft": 3467,
+        "assessed": 94881,
+        "taxkey": "5875114"
+      },
+      {
+        "address": "5482 W Capitol Dr",
+        "zip": "53212",
+        "price": 61000,
+        "sale_date": "2026-01-19",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1946,
+        "sqft": 2216,
+        "assessed": 93982,
+        "taxkey": "5935413"
+      },
+      {
+        "address": "9328 N Teutonia Ave",
+        "zip": "53212",
+        "price": 62000,
+        "sale_date": "2026-02-12",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1957,
+        "sqft": 3178,
+        "assessed": 97194,
+        "taxkey": "3913368"
+      }
+    ]
+  },
+  "Christopher Walker": {
+    "name": "Christopher Walker",
+    "deal_count": 4,
+    "first_purchase": "2025-01-03",
+    "last_purchase": "2025-06-22",
+    "days_since_last_purchase": 326,
+    "avg_days_between_purchases": 57,
+    "price_min": 45000,
+    "price_max": 59000,
+    "price_avg": 50500,
+    "top_zips": [
+      "53214"
+    ],
+    "zip_counts": {
+      "53214": 4
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 4
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 3,
+    "avg_sqft": 1742,
+    "yr_built_avg": 1950,
+    "yr_built_min": 1931,
+    "avg_price_to_assessed_pct": 73.5,
+    "purchases": [
+      {
+        "address": "4603 N Teutonia Ave",
+        "zip": "53214",
+        "price": 49000,
+        "sale_date": "2025-01-03",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1940,
+        "sqft": 1876,
+        "assessed": 73108,
+        "taxkey": "2143811"
+      },
+      {
+        "address": "1654 W Center St",
+        "zip": "53214",
+        "price": 45000,
+        "sale_date": "2025-05-12",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 1117,
+        "assessed": 56937,
+        "taxkey": "6412833"
+      },
+      {
+        "address": "2955 W Capitol Dr",
+        "zip": "53214",
+        "price": 49000,
+        "sale_date": "2025-06-21",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1931,
+        "sqft": 1852,
+        "assessed": 58480,
+        "taxkey": "8189168"
+      },
+      {
+        "address": "7025 N 76th St",
+        "zip": "53214",
+        "price": 59000,
+        "sale_date": "2025-06-22",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 2126,
+        "assessed": 91788,
+        "taxkey": "4296204"
+      }
+    ]
+  },
+  "Daniel Hall": {
+    "name": "Daniel Hall",
+    "deal_count": 3,
+    "first_purchase": "2025-10-03",
+    "last_purchase": "2025-11-23",
+    "days_since_last_purchase": 172,
+    "avg_days_between_purchases": 26,
+    "price_min": 42000,
+    "price_max": 47000,
+    "price_avg": 44666,
+    "top_zips": [
+      "53215"
+    ],
+    "zip_counts": {
+      "53215": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 1200,
+    "yr_built_avg": 1949,
+    "yr_built_min": 1927,
+    "avg_price_to_assessed_pct": 73.1,
+    "purchases": [
+      {
+        "address": "6248 N Port Washington Rd",
+        "zip": "53215",
+        "price": 45000,
+        "sale_date": "2025-10-03",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1961,
+        "sqft": 1194,
+        "assessed": 50486,
+        "taxkey": "2609881"
+      },
+      {
+        "address": "2879 N 51st Blvd",
+        "zip": "53215",
+        "price": 47000,
+        "sale_date": "2025-11-19",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1961,
+        "sqft": 818,
+        "assessed": 71056,
+        "taxkey": "5032368"
+      },
+      {
+        "address": "5203 W Lisbon Ave",
+        "zip": "53215",
+        "price": 42000,
+        "sale_date": "2025-11-23",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1927,
+        "sqft": 1590,
+        "assessed": 65434,
+        "taxkey": "1414493"
+      }
+    ]
+  },
+  "Paul Allen": {
+    "name": "Paul Allen",
+    "deal_count": 3,
+    "first_purchase": "2025-02-25",
+    "last_purchase": "2025-04-07",
+    "days_since_last_purchase": 402,
+    "avg_days_between_purchases": 20,
+    "price_min": 47000,
+    "price_max": 50000,
+    "price_avg": 48000,
+    "top_zips": [
+      "53220"
+    ],
+    "zip_counts": {
+      "53220": 3
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 3
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 1503,
+    "yr_built_avg": 1941,
+    "yr_built_min": 1924,
+    "avg_price_to_assessed_pct": 81.7,
+    "purchases": [
+      {
+        "address": "7678 W Capitol Dr",
+        "zip": "53220",
+        "price": 47000,
+        "sale_date": "2025-02-25",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1934,
+        "sqft": 1329,
+        "assessed": 53355,
+        "taxkey": "7785511"
+      },
+      {
+        "address": "2036 N 76th St",
+        "zip": "53220",
+        "price": 47000,
+        "sale_date": "2025-02-25",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1966,
+        "sqft": 2066,
+        "assessed": 51838,
+        "taxkey": "2217848"
+      },
+      {
+        "address": "1389 W Greenfield Ave",
+        "zip": "53220",
+        "price": 50000,
+        "sale_date": "2025-04-07",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1924,
+        "sqft": 1114,
+        "assessed": 75418,
+        "taxkey": "1635626"
+      }
+    ]
+  },
+  "Edward Young": {
+    "name": "Edward Young",
+    "deal_count": 2,
+    "first_purchase": "2025-10-22",
+    "last_purchase": "2025-12-07",
+    "days_since_last_purchase": 158,
+    "avg_days_between_purchases": 46,
+    "price_min": 47000,
+    "price_max": 48000,
+    "price_avg": 47500,
+    "top_zips": [
+      "53219"
+    ],
+    "zip_counts": {
+      "53219": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 2
+    },
+    "avg_bedrooms": 2.0,
+    "max_bedrooms": 2,
+    "avg_sqft": 1969,
+    "yr_built_avg": 1963,
+    "yr_built_min": 1956,
+    "avg_price_to_assessed_pct": 78.6,
+    "purchases": [
+      {
+        "address": "7456 W Lisbon Ave",
+        "zip": "53219",
+        "price": 47000,
+        "sale_date": "2025-10-22",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 2021,
+        "assessed": 52681,
+        "taxkey": "2428191"
+      },
+      {
+        "address": "5832 S 43rd St",
+        "zip": "53219",
+        "price": 48000,
+        "sale_date": "2025-12-07",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1970,
+        "sqft": 1917,
+        "assessed": 70722,
+        "taxkey": "6000558"
+      }
+    ]
+  },
+  "Jason King": {
+    "name": "Jason King",
+    "deal_count": 6,
+    "first_purchase": "2025-06-20",
+    "last_purchase": "2026-02-04",
+    "days_since_last_purchase": 99,
+    "avg_days_between_purchases": 46,
+    "price_min": 60000,
+    "price_max": 85000,
+    "price_avg": 74666,
+    "top_zips": [
+      "53208",
+      "53213"
+    ],
+    "zip_counts": {
+      "53208": 4,
+      "53213": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 6
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 1626,
+    "yr_built_avg": 1951,
+    "yr_built_min": 1924,
+    "avg_price_to_assessed_pct": 73.5,
+    "purchases": [
+      {
+        "address": "9309 S 43rd St",
+        "zip": "53213",
+        "price": 85000,
+        "sale_date": "2025-06-20",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1924,
+        "sqft": 838,
+        "assessed": 96749,
+        "taxkey": "7797028"
+      },
+      {
+        "address": "2783 N Teutonia Ave",
+        "zip": "53208",
+        "price": 67000,
+        "sale_date": "2025-07-15",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1951,
+        "sqft": 1929,
+        "assessed": 99654,
+        "taxkey": "2375290"
+      },
+      {
+        "address": "3496 N 76th St",
+        "zip": "53208",
+        "price": 73000,
+        "sale_date": "2025-11-23",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1962,
+        "sqft": 1426,
+        "assessed": 92284,
+        "taxkey": "7115185"
+      },
+      {
+        "address": "8145 W Oklahoma Ave",
+        "zip": "53213",
+        "price": 60000,
+        "sale_date": "2025-11-27",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 2112,
+        "assessed": 89569,
+        "taxkey": "3253277"
+      },
+      {
+        "address": "3100 S 43rd St",
+        "zip": "53208",
+        "price": 82000,
+        "sale_date": "2026-01-14",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1941,
+        "sqft": 1531,
+        "assessed": 110174,
+        "taxkey": "2678477"
+      },
+      {
+        "address": "8557 S 43rd St",
+        "zip": "53208",
+        "price": 81000,
+        "sale_date": "2026-02-04",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1968,
+        "sqft": 1924,
+        "assessed": 123616,
+        "taxkey": "2227162"
+      }
+    ]
+  },
+  "Scott Wright": {
+    "name": "Scott Wright",
+    "deal_count": 5,
+    "first_purchase": "2024-11-12",
+    "last_purchase": "2025-05-14",
+    "days_since_last_purchase": 365,
+    "avg_days_between_purchases": 46,
+    "price_min": 56000,
+    "price_max": 83000,
+    "price_avg": 70800,
+    "top_zips": [
+      "53203"
+    ],
+    "zip_counts": {
+      "53203": 5
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 5
+    },
+    "avg_bedrooms": 2.8,
+    "max_bedrooms": 3,
+    "avg_sqft": 1774,
+    "yr_built_avg": 1950,
+    "yr_built_min": 1934,
+    "avg_price_to_assessed_pct": 78.1,
+    "purchases": [
+      {
+        "address": "7649 N 51st Blvd",
+        "zip": "53203",
+        "price": 83000,
+        "sale_date": "2024-11-12",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1934,
+        "sqft": 1857,
+        "assessed": 101740,
+        "taxkey": "6788681"
+      },
+      {
+        "address": "5480 W Oklahoma Ave",
+        "zip": "53203",
+        "price": 56000,
+        "sale_date": "2025-03-08",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1953,
+        "sqft": 2097,
+        "assessed": 81304,
+        "taxkey": "3916715"
+      },
+      {
+        "address": "9485 N 51st Blvd",
+        "zip": "53203",
+        "price": 73000,
+        "sale_date": "2025-03-26",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1962,
+        "sqft": 1223,
+        "assessed": 88841,
+        "taxkey": "8879825"
+      },
+      {
+        "address": "3395 S 27th St",
+        "zip": "53203",
+        "price": 60000,
+        "sale_date": "2025-04-07",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1956,
+        "sqft": 2150,
+        "assessed": 71374,
+        "taxkey": "1678132"
+      },
+      {
+        "address": "9227 N 12th St",
+        "zip": "53203",
+        "price": 82000,
+        "sale_date": "2025-05-14",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1945,
+        "sqft": 1545,
+        "assessed": 111126,
+        "taxkey": "5007754"
+      }
+    ]
+  },
+  "Eric Scott": {
+    "name": "Eric Scott",
+    "deal_count": 5,
+    "first_purchase": "2025-07-15",
+    "last_purchase": "2026-01-15",
+    "days_since_last_purchase": 119,
+    "avg_days_between_purchases": 46,
+    "price_min": 55000,
+    "price_max": 68000,
+    "price_avg": 60200,
+    "top_zips": [
+      "53218"
+    ],
+    "zip_counts": {
+      "53218": 5
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 5
+    },
+    "avg_bedrooms": 2.0,
+    "max_bedrooms": 2,
+    "avg_sqft": 1306,
+    "yr_built_avg": 1952,
+    "yr_built_min": 1928,
+    "avg_price_to_assessed_pct": 75.2,
+    "purchases": [
+      {
+        "address": "1271 W Fond du Lac Ave",
+        "zip": "53218",
+        "price": 57000,
+        "sale_date": "2025-07-15",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1928,
+        "sqft": 1022,
+        "assessed": 73479,
+        "taxkey": "9461748"
+      },
+      {
+        "address": "3979 W North Ave",
+        "zip": "53218",
+        "price": 63000,
+        "sale_date": "2025-09-06",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1970,
+        "sqft": 1993,
+        "assessed": 88226,
+        "taxkey": "9569884"
+      },
+      {
+        "address": "4992 N 20th St",
+        "zip": "53218",
+        "price": 68000,
+        "sale_date": "2025-12-18",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1946,
+        "sqft": 845,
+        "assessed": 80282,
+        "taxkey": "3703298"
+      },
+      {
+        "address": "1305 N Hopkins St",
+        "zip": "53218",
+        "price": 58000,
+        "sale_date": "2025-12-21",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1953,
+        "sqft": 1630,
+        "assessed": 90550,
+        "taxkey": "4633834"
+      },
+      {
+        "address": "4773 N Sherman Blvd",
+        "zip": "53218",
+        "price": 55000,
+        "sale_date": "2026-01-15",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1965,
+        "sqft": 1042,
+        "assessed": 70461,
+        "taxkey": "6540252"
+      }
+    ]
+  },
+  "Jeffrey Green": {
+    "name": "Jeffrey Green",
+    "deal_count": 6,
+    "first_purchase": "2025-01-02",
+    "last_purchase": "2025-06-08",
+    "days_since_last_purchase": 340,
+    "avg_days_between_purchases": 31,
+    "price_min": 38000,
+    "price_max": 63000,
+    "price_avg": 50333,
+    "top_zips": [
+      "53222",
+      "53206"
+    ],
+    "zip_counts": {
+      "53222": 3,
+      "53206": 3
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 6
+    },
+    "avg_bedrooms": 2.7,
+    "max_bedrooms": 3,
+    "avg_sqft": 2179,
+    "yr_built_avg": 1952,
+    "yr_built_min": 1920,
+    "avg_price_to_assessed_pct": 77.9,
+    "purchases": [
+      {
+        "address": "2642 W Fond du Lac Ave",
+        "zip": "53222",
+        "price": 58000,
+        "sale_date": "2025-01-02",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1970,
+        "sqft": 1862,
+        "assessed": 70463,
+        "taxkey": "7720296"
+      },
+      {
+        "address": "5157 N Hopkins St",
+        "zip": "53206",
+        "price": 40000,
+        "sale_date": "2025-02-03",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1955,
+        "sqft": 3181,
+        "assessed": 51404,
+        "taxkey": "6777340"
+      },
+      {
+        "address": "5281 W Lisbon Ave",
+        "zip": "53206",
+        "price": 38000,
+        "sale_date": "2025-02-19",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1961,
+        "sqft": 2238,
+        "assessed": 44740,
+        "taxkey": "7134489"
+      },
+      {
+        "address": "9561 W Vliet St",
+        "zip": "53222",
+        "price": 43000,
+        "sale_date": "2025-03-24",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1965,
+        "sqft": 1229,
+        "assessed": 51363,
+        "taxkey": "1120696"
+      },
+      {
+        "address": "7971 W Center St",
+        "zip": "53206",
+        "price": 60000,
+        "sale_date": "2025-05-01",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1942,
+        "sqft": 1600,
+        "assessed": 89060,
+        "taxkey": "9005101"
+      },
+      {
+        "address": "9553 N Sherman Blvd",
+        "zip": "53222",
+        "price": 63000,
+        "sale_date": "2025-06-08",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1920,
+        "sqft": 2967,
+        "assessed": 88309,
+        "taxkey": "1728773"
+      }
+    ]
+  },
+  "Ryan Adams": {
+    "name": "Ryan Adams",
+    "deal_count": 2,
+    "first_purchase": "2026-02-19",
+    "last_purchase": "2026-02-28",
+    "days_since_last_purchase": 75,
+    "avg_days_between_purchases": 9,
+    "price_min": 42000,
+    "price_max": 49000,
+    "price_avg": 45500,
+    "top_zips": [
+      "53220"
+    ],
+    "zip_counts": {
+      "53220": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 2
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 1369,
+    "yr_built_avg": 1960,
+    "yr_built_min": 1958,
+    "avg_price_to_assessed_pct": 84.2,
+    "purchases": [
+      {
+        "address": "5685 W Fond du Lac Ave",
+        "zip": "53220",
+        "price": 49000,
+        "sale_date": "2026-02-19",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1962,
+        "sqft": 1861,
+        "assessed": 54162,
+        "taxkey": "9565571"
+      },
+      {
+        "address": "7296 W Capitol Dr",
+        "zip": "53220",
+        "price": 42000,
+        "sale_date": "2026-02-28",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1958,
+        "sqft": 877,
+        "assessed": 53987,
+        "taxkey": "9741022"
+      }
+    ]
+  },
+  "Brandon Baker": {
+    "name": "Brandon Baker",
+    "deal_count": 3,
+    "first_purchase": "2025-02-15",
+    "last_purchase": "2025-05-26",
+    "days_since_last_purchase": 353,
+    "avg_days_between_purchases": 50,
+    "price_min": 37000,
+    "price_max": 41000,
+    "price_avg": 39333,
+    "top_zips": [
+      "53222"
+    ],
+    "zip_counts": {
+      "53222": 3
+    },
+    "top_property_types": [
+      "Triplex"
+    ],
+    "type_counts": {
+      "Triplex": 3
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 2445,
+    "yr_built_avg": 1943,
+    "yr_built_min": 1932,
+    "avg_price_to_assessed_pct": 68.2,
+    "purchases": [
+      {
+        "address": "9813 N 76th St",
+        "zip": "53222",
+        "price": 40000,
+        "sale_date": "2025-02-15",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1952,
+        "sqft": 2255,
+        "assessed": 62940,
+        "taxkey": "8428425"
+      },
+      {
+        "address": "7618 N 76th St",
+        "zip": "53222",
+        "price": 37000,
+        "sale_date": "2025-04-27",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1932,
+        "sqft": 3062,
+        "assessed": 51917,
+        "taxkey": "5380657"
+      },
+      {
+        "address": "9482 N 12th St",
+        "zip": "53222",
+        "price": 41000,
+        "sale_date": "2025-05-26",
+        "bedrooms": 3,
+        "units": 3,
+        "bldg_type": "Triplex",
+        "yr_built": 1945,
+        "sqft": 2020,
+        "assessed": 58828,
+        "taxkey": "2512732"
+      }
+    ]
+  },
+  "Nathan Nelson": {
+    "name": "Nathan Nelson",
+    "deal_count": 5,
+    "first_purchase": "2025-02-04",
+    "last_purchase": "2025-06-04",
+    "days_since_last_purchase": 344,
+    "avg_days_between_purchases": 30,
+    "price_min": 43000,
+    "price_max": 61000,
+    "price_avg": 53200,
+    "top_zips": [
+      "53221",
+      "53218"
+    ],
+    "zip_counts": {
+      "53221": 3,
+      "53218": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 5
+    },
+    "avg_bedrooms": 2.2,
+    "max_bedrooms": 3,
+    "avg_sqft": 1579,
+    "yr_built_avg": 1949,
+    "yr_built_min": 1935,
+    "avg_price_to_assessed_pct": 70.9,
+    "purchases": [
+      {
+        "address": "5591 W Capitol Dr",
+        "zip": "53218",
+        "price": 55000,
+        "sale_date": "2025-02-04",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1968,
+        "sqft": 1846,
+        "assessed": 65528,
+        "taxkey": "3151610"
+      },
+      {
+        "address": "5348 W Fond du Lac Ave",
+        "zip": "53221",
+        "price": 55000,
+        "sale_date": "2025-04-18",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1935,
+        "sqft": 1295,
+        "assessed": 80770,
+        "taxkey": "4401858"
+      },
+      {
+        "address": "9071 W North Ave",
+        "zip": "53218",
+        "price": 43000,
+        "sale_date": "2025-04-27",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1963,
+        "sqft": 2158,
+        "assessed": 67084,
+        "taxkey": "1709057"
+      },
+      {
+        "address": "3924 S 27th St",
+        "zip": "53221",
+        "price": 52000,
+        "sale_date": "2025-05-19",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1941,
+        "sqft": 955,
+        "assessed": 74716,
+        "taxkey": "6931382"
+      },
+      {
+        "address": "6785 N Port Washington Rd",
+        "zip": "53221",
+        "price": 61000,
+        "sale_date": "2025-06-04",
+        "bedrooms": 2,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1940,
+        "sqft": 1644,
+        "assessed": 88485,
+        "taxkey": "1163128"
+      }
+    ]
+  },
+  "Justin Carter": {
+    "name": "Justin Carter",
+    "deal_count": 2,
+    "first_purchase": "2025-06-24",
+    "last_purchase": "2025-08-02",
+    "days_since_last_purchase": 285,
+    "avg_days_between_purchases": 39,
+    "price_min": 60000,
+    "price_max": 65000,
+    "price_avg": 62500,
+    "top_zips": [
+      "53219"
+    ],
+    "zip_counts": {
+      "53219": 2
+    },
+    "top_property_types": [
+      "Single Family"
+    ],
+    "type_counts": {
+      "Single Family": 2
+    },
+    "avg_bedrooms": 3.0,
+    "max_bedrooms": 3,
+    "avg_sqft": 1841,
+    "yr_built_avg": 1939,
+    "yr_built_min": 1920,
+    "avg_price_to_assessed_pct": 75.1,
+    "purchases": [
+      {
+        "address": "6995 N Teutonia Ave",
+        "zip": "53219",
+        "price": 60000,
+        "sale_date": "2025-06-24",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1959,
+        "sqft": 1502,
+        "assessed": 74082,
+        "taxkey": "8112581"
+      },
+      {
+        "address": "4452 W Capitol Dr",
+        "zip": "53219",
+        "price": 65000,
+        "sale_date": "2025-08-02",
+        "bedrooms": 3,
+        "units": 1,
+        "bldg_type": "Single Family",
+        "yr_built": 1920,
+        "sqft": 2180,
+        "assessed": 93899,
+        "taxkey": "2690268"
+      }
+    ]
+  },
+  "Aaron Mitchell": {
+    "name": "Aaron Mitchell",
+    "deal_count": 4,
+    "first_purchase": "2025-03-14",
+    "last_purchase": "2025-08-28",
+    "days_since_last_purchase": 259,
+    "avg_days_between_purchases": 56,
+    "price_min": 41000,
+    "price_max": 68000,
+    "price_avg": 56250,
+    "top_zips": [
+      "53215"
+    ],
+    "zip_counts": {
+      "53215": 4
+    },
+    "top_property_types": [
+      "Duplex"
+    ],
+    "type_counts": {
+      "Duplex": 4
+    },
+    "avg_bedrooms": 2.5,
+    "max_bedrooms": 3,
+    "avg_sqft": 2984,
+    "yr_built_avg": 1940,
+    "yr_built_min": 1927,
+    "avg_price_to_assessed_pct": 80.1,
+    "purchases": [
+      {
+        "address": "4259 N 76th St",
+        "zip": "53215",
+        "price": 51000,
+        "sale_date": "2025-03-14",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1927,
+        "sqft": 2638,
+        "assessed": 56605,
+        "taxkey": "3928275"
+      },
+      {
+        "address": "2577 W Greenfield Ave",
+        "zip": "53215",
+        "price": 41000,
+        "sale_date": "2025-06-05",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1936,
+        "sqft": 3151,
+        "assessed": 49517,
+        "taxkey": "6614605"
+      },
+      {
+        "address": "6172 S 27th St",
+        "zip": "53215",
+        "price": 68000,
+        "sale_date": "2025-07-18",
+        "bedrooms": 2,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1953,
+        "sqft": 3387,
+        "assessed": 103679,
+        "taxkey": "5210645"
+      },
+      {
+        "address": "4212 W Center St",
+        "zip": "53215",
+        "price": 65000,
+        "sale_date": "2025-08-28",
+        "bedrooms": 3,
+        "units": 2,
+        "bldg_type": "Duplex",
+        "yr_built": 1947,
+        "sqft": 2760,
+        "assessed": 79163,
+        "taxkey": "8935405"
+      }
+    ]
+  },
+  "Jeremy Perez": {
+    "name": "Jeremy Perez",
+    "deal_count": 5,
+    "first_purchase": "2025-01-21",
+    "last_purchase": "2025-06-14",
+    "days_since_last_purchase": 334,
+    "avg_days_between_purchases": 36,
+    "price_min": 53000,
+    "price_max": 64000,
+    "price_avg": 57200,
+    "top_zips": [
+      "53213"
+    ],
+    "zip_counts": {
+      "53213": 5
+    },
+    "top_property_types": [
+      "Fourplex"
+    ],
+    "type_counts": {
+      "Fourplex": 5
+    },
+    "avg_bedrooms": 2.4,
+    "max_bedrooms": 3,
+    "avg_sqft": 2153,
+    "yr_built_avg": 1942,
+    "yr_built_min": 1925,
+    "avg_price_to_assessed_pct": 70.7,
+    "purchases": [
+      {
+        "address": "5300 W North Ave",
+        "zip": "53213",
+        "price": 57000,
+        "sale_date": "2025-01-21",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1925,
+        "sqft": 1625,
+        "assessed": 77633,
+        "taxkey": "2414508"
+      },
+      {
+        "address": "9630 N Teutonia Ave",
+        "zip": "53213",
+        "price": 54000,
+        "sale_date": "2025-02-07",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1928,
+        "sqft": 1737,
+        "assessed": 71365,
+        "taxkey": "1589802"
+      },
+      {
+        "address": "4450 N Teutonia Ave",
+        "zip": "53213",
+        "price": 53000,
+        "sale_date": "2025-03-20",
+        "bedrooms": 2,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1964,
+        "sqft": 1527,
+        "assessed": 83221,
+        "taxkey": "2728209"
+      },
+      {
+        "address": "6950 N 76th St",
+        "zip": "53213",
+        "price": 64000,
+        "sale_date": "2025-03-26",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1937,
+        "sqft": 3022,
+        "assessed": 91028,
+        "taxkey": "7945583"
+      },
+      {
+        "address": "2168 N 35th St",
+        "zip": "53213",
+        "price": 58000,
+        "sale_date": "2025-06-14",
+        "bedrooms": 3,
+        "units": 4,
+        "bldg_type": "Fourplex",
+        "yr_built": 1956,
+        "sqft": 2857,
+        "assessed": 82106,
+        "taxkey": "6765079"
+      }
+    ]
+  }
+}

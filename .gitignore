@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+data/mprop.csv
+data/sales_*.csv
+*.egg-info/
+.venv/
+venv/
