@@ -12,7 +12,15 @@ PROFILES_FILE = os.path.join(DATA_DIR, "buyer_profiles.json")
 MPROP_FILE = os.path.join(DATA_DIR, "mprop.csv")
 os.makedirs(DATA_DIR, exist_ok=True)
 
-MPROP_URL = "https://data.milwaukee.gov/dataset/562ab824-48a5-42cd-b714-87e205e489ba/resource/0a2c7f31-cd15-4151-8222-09dd57d5f16d/download/mprop.csv"
+# Try multiple endpoints — Cloudflare blocks the direct download but the
+# CKAN DataStore dump and API endpoints have different rules
+MPROP_URLS = [
+    # CKAN DataStore dump (often not Cloudflare-protected)
+    "https://data.milwaukee.gov/datastore/dump/0a2c7f31-cd15-4151-8222-09dd57d5f16d?format=csv",
+    "https://data.milwaukee.gov/api/3/action/datastore_search?resource_id=0a2c7f31-cd15-4151-8222-09dd57d5f16d&limit=200000",
+    # Direct download fallback
+    "https://data.milwaukee.gov/dataset/562ab824-48a5-42cd-b714-87e205e489ba/resource/0a2c7f31-cd15-4151-8222-09dd57d5f16d/download/mprop.csv",
+]
 
 BLDG_TYPE_MAP = {
     "0": "Vacant Land", "1": "Single Family", "2": "Duplex",
@@ -33,8 +41,8 @@ def should_refresh():
         return True
     with open(PROFILES_FILE) as f:
         profiles = json.load(f)
-    # Synthetic data has < 100 buyers; real data will have thousands
-    if len(profiles) < 100:
+    # Synthetic data has < 200 buyers; real data will have thousands
+    if len(profiles) < 200:
         return True
     # Refresh if older than 30 days
     age = date.today().toordinal() - date.fromtimestamp(os.path.getmtime(PROFILES_FILE)).toordinal()
@@ -42,27 +50,45 @@ def should_refresh():
 
 
 def download_mprop():
-    print("[fetch] Downloading Milwaukee MPROP from data.milwaukee.gov...")
+    print("[fetch] Downloading Milwaukee MPROP...")
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/csv,*/*",
+        "Accept": "text/csv,application/json,*/*",
         "Referer": "https://data.milwaukee.gov/",
+        "Accept-Language": "en-US,en;q=0.9",
     }
-    req = urllib.request.Request(MPROP_URL, headers=headers)
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            data = r.read()
-        with open(MPROP_FILE, "wb") as f:
-            f.write(data)
-        size_mb = len(data) / 1024 / 1024
-        print(f"[fetch] Downloaded mprop.csv ({size_mb:.1f} MB)")
-        return True
-    except urllib.error.HTTPError as e:
-        print(f"[fetch] HTTP {e.code} downloading MPROP: {e.reason}")
-        return False
-    except Exception as e:
-        print(f"[fetch] Download failed: {e}")
-        return False
+    for url in MPROP_URLS:
+        print(f"[fetch] Trying: {url[:70]}...")
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = r.read()
+            content_type = r.headers.get("Content-Type", "")
+            # If JSON response (CKAN API), convert to CSV
+            if "json" in content_type or url.endswith("200000"):
+                parsed = json.loads(data)
+                records = parsed.get("result", {}).get("records", [])
+                if not records:
+                    print(f"[fetch] JSON response had 0 records, trying next...")
+                    continue
+                keys = list(records[0].keys())
+                with open(MPROP_FILE, "w", newline="", encoding="utf-8") as f:
+                    w = csv.DictWriter(f, fieldnames=keys)
+                    w.writeheader()
+                    w.writerows(records)
+                print(f"[fetch] Got {len(records):,} records via CKAN API")
+            else:
+                with open(MPROP_FILE, "wb") as f:
+                    f.write(data)
+            size_mb = os.path.getsize(MPROP_FILE) / 1024 / 1024
+            print(f"[fetch] Saved mprop.csv ({size_mb:.1f} MB)")
+            return True
+        except urllib.error.HTTPError as e:
+            print(f"[fetch] HTTP {e.code} -- trying next URL")
+        except Exception as e:
+            print(f"[fetch] Failed: {e} -- trying next URL")
+    print("[fetch] All download attempts failed.")
+    return False
 
 
 def clean_name(*parts):
