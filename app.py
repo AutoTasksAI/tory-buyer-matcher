@@ -14,6 +14,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Pull real Milwaukee data on startup if profiles are stale/synthetic
+from fetch_data import run as fetch_data
+fetch_data()
+
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 PROFILES_FILE = os.path.join(DATA_DIR, "buyer_profiles.json")
